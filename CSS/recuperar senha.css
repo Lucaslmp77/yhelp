@@ -18,44 +18,30 @@
     font-size: 62.5%; /* 1rem = 10px */
 }
 
-#login {
+#recuperarSenha {
     height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: var(--grey-color);
-}
-
-.boxCenter {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    width: 70%;
-    height: 70%;
     background-color: var(--blue-color);
-    border-radius: 1.6rem 1.6rem 0 0;
 }
 
-.formLogin {
+img {
+    padding: 2rem;
+}
+
+form {
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
-    align-items: center;
-    padding-bottom: 3.4rem;
-    padding-top: 0.9rem;
-    margin-top: 5rem;
+
+    margin-top: 15rem;
 }
 
-.boxLogin {
-    display: flex;
-    align-items: center;
-
+form h2 {
     font-weight: 800;
     font-size: 6rem;
     line-height: 7.3rem;
     color: var(--grey-color);
-    margin-bottom: 2rem;
+    margin-bottom: 5rem;
 }
 
 .boxForm input {
@@ -69,7 +55,6 @@
     padding: 1rem;
 
     display: block;
-    margin-top: 2rem;
 }
 
 .boxForm input::placeholder {
@@ -82,13 +67,7 @@
     font-size: 1.4rem;
 }
 
-.boxForm .esqueci {
-    position: absolute;
-    font-size: 1.4rem;
-    color: var(--orange-color);
-}
-
-.formLogin button {
+form button {
     width: 17.6rem;
     height: 5rem;
     color: var(--orange-color);
@@ -98,7 +77,7 @@
     font-weight: 800;
     font-size: 2.4rem;
     line-height: 3.6rem;
-    margin-top: 5rem;
+    margin-top: 3rem;
 }
 
 /* Sucesso */
@@ -113,34 +92,4 @@
 .boxForm.error small {
     visibility: visible;
     color: #e74c3c;
-}
-
-footer {
-    display: flex;
-    align-items: center;
-    justify-content: right;
-    width: 70%;
-    height: 10%;
-    background-color: var(--black-color);
-    color: var(--grey-color);
-
-    font-weight: 600;
-    font-size: 2.4rem;
-    line-height: 3.6rem;
-
-    gap: 1.5rem;
-    padding-right: 3rem;
-    border-radius: 0 0 1.6rem 1.6rem;
-}
-
-.cadastre {
-    width: 18rem;
-    height: 5rem;
-    color: var(--orange-color);
-    border-color: var(--orange-color);
-    border-radius: 3rem;
-
-    font-weight: 800;
-    font-size: 1.6rem;
-    line-height: 3.6rem;
 }
