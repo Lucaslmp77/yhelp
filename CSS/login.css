@@ -76,10 +76,16 @@
     color: var(--orange-color);
 }
 
-.boxForm small {
+.boxForm .msgErro {
     position: absolute;
     visibility: hidden;
     font-size: 1.4rem;
+}
+
+.boxForm .esqueci {
+    position: absolute;
+    font-size: 1.4rem;
+    color: var(--orange-color);
 }
 
 .formLogin button {
