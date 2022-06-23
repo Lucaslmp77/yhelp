@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+:root {
+    --black-color: #16142F;
+    --blue-color: #201E45;
+    --purple-color: #404267;
+    --orange-color: #F07B7B;
+    --grey-color: #E4E4EF;
+
+    font-size: 62.5%; /* 1rem = 10px */
+}
+#paginaInicial{
+    width: 100vw;
+    height: 100vh;
+}
+
+.cabeçalho{
+    width: 100%;
+    height: 100px;
+    background-color: var(--black-color);
+}
+
+.cabeça{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.logoHeader{
+    display: flex;
+    width: 150px;
+    height: 50px;
+    align-items: center;
+}
+
+.pesquisarHeader{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+}
+
+.pesquisa{
+    width: 340px;
+    height: 60px;
+    border-radius: 45px;
+    border: 1px var(--blue-color) solid;
+}
+
+.pesquisar,
+.anuncios,
+.notifi,
+.conta{
+    display: flex;
+    align-items: center;
+}
+
+.anuncios img{
+    width: 35px;
+    height: 35px;
+}
+
+.notifi img {
+    width: 35px;
+    height: 35px;
+}
+
+.conta img{
+    width: 35px;
+    height: 35px;
+}
+
+.anuncios h2,
+.notifi h2,
+.conta h2 {
+    color: var(--grey-color);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 34px;
+    padding-left: 8px;
+}
+   /*FIM DO CABEÇALHO*/
+
+.botaoAnuncioAnunciar{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color:white;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px    ;
+}
+
+.botaoAnuncioAnunciar h1{
+    display: flex;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 36px;
+    color: var(--orange-color);
+    background-color: var(--grey-color);
+    width: 176px;
+    height: 59px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+    /*CONTEUDO DOS ULTIMOS ANUNCIOS POSTADOS*/
+
+.telaInicial{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+} 
+
+#conteudo{
+    width: 1300px;
+    height: 400px;
+    background-color: var(--grey-color); 
+    border-radius: 30px;
+    margin-top: 50px;
+}
+.conteudoText{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 25px 65px;
+}
+
+.conteudoText h2{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 44px;
+    color: var(--blue-color);
+}
+
+.conteudoText .verMais{
+    text-decoration: underline;
+}
+
+.conteudoDoacao{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudoDoacao1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 0px;
+}
+
+.conteudoDoacao1 img{
+    width: 250px;
+    height: 170px;
+}
+
+.conteudoDoacaoText{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    width: 250px;
+    height: 65px;
+    border-radius: 0px 0px 18px 18px;
+}
+
+.conteudoDoacaoText h2{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 29px;
+}
+
+.conteudoDoacaoText h1{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 29px;
+}
