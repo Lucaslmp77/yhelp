@@ -12,13 +12,136 @@
     height: 66px;
 }
 
-h1, h2 {
-    font-family: 'Monteserrat', sans-serif;
-    font-size: 30px;
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
     font-weight: 500;
+    font-size: 30px;
     line-height: 37px;
     display: flex;
     align-items: center;
     text-align: center;
+    
     color: #404267;
 }
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 61px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #404267;
+}
+
+input {
+    width: 600px;
+    height: 50px;
+    left: 623px;
+    top: 422px;
+    border: none;
+
+    background: #E4E4EF;
+    border-radius: 10px;
+}
+/* Início do perfil */
+.profile {
+    width: 271px;
+    height: 66px;
+    left: 51px;
+    top: 203px;
+
+    background: #E4E4EF;
+    border-radius: 10px;
+}
+
+/* Fim do perfil */
+
+/* Início do cadastro */
+
+.registration {
+    width: 271px;
+    height: 66px;
+    left: 51px;
+    top: 312px;
+
+    background: #E4E4EF;
+    border-radius: 10px;
+}
+
+/* Fim do cadastro */
+
+/* Início das doações solicitadas */
+
+.donations-requested {
+    width: 271px;
+    height: 66px;
+    left: 51px;
+    top: 438px;
+
+    background: #E4E4EF;
+    border-radius: 10px;
+}
+
+/* Fim das doações solicitadas */
+
+/* Início das doações adquiridas */
+
+.donations-acquired {
+    width: 271px;
+    height: 66px;
+    left: 51px;
+    top: 566px;
+
+    background: #E4E4EF;
+    border-radius: 10px;
+}
+
+/* Fim das doações adquiridas */
+
+/* Início do controle de doações */
+
+.donation-control {
+    width: 271px;
+    height: 66px;
+    left: 51px;
+    top: 692px;
+
+    background: #E4E4EF;
+    border-radius: 10px;
+}
+
+/* Fim do controle de doações */
+
+/* Início do alterar senha */
+
+.change-password {
+    width: 271px;
+    height: 66px;
+    left: 51px;
+    top: 820px;
+
+    background: #E4E4EF;
+    border-radius: 10px;
+}
+
+/* Fim do alterar senha */
+
+/* Início do sair */
+
+.exit {
+    position: absolute;
+    width: 271px;
+    height: 66px;
+    left: 51px;
+    top: 946px;
+
+    background: #E4E4EF;
+    border-radius: 10px;
+}
+
+/* Fim do sair */
