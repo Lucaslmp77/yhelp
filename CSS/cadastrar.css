@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+:root {
+    --black-color: #16142F;
+    --blue-color: #201E45;
+    --purple-color: #404267;
+    --orange-color: #F07B7B;
+    --grey-color: #E4E4EF;
+
+    font-size: 62.5%; /* 1rem = 10px */
+}
+
+#cadastrar {
+    display: flex;
+    height: 100vh;
+}
+
+.boxLeft {
+    display: flex;
+    justify-content: center;
+
+    width: 50rem;
+    height: 100vh;
+    background-color: var(--black-color);
+}
+
+.boxLogo {
+    display: flex;
+    align-items: center;
+
+    width: 25.4rem;
+    height: 7.8rem;
+    margin-top: 8rem;
+}
+
+.yLogo{
+    font-weight: 800;
+    font-size: 5.5rem;
+    line-height: 6.7rem;
+    color: var(--grey-color);
+}
+
+.title {
+    font-weight: 800;
+    font-size: 4.5rem;
+    line-height: 5.5rem;
+    color: var(--orange-color);
+}
+
+.boxLow {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    width: 36.5rem;
+    height: 22.3rem;
+    margin-top: 45rem;
+}
+
+.bemVindo {
+    font-weight: 900;
+    font-size: 4.5rem;
+    line-height: 6.8rem;
+    color: var(--grey-color);
+}
+
+.acesse {
+    font-weight: 300;
+    font-size: 2rem;
+    line-height: 3rem;
+    color: var(--grey-color);
+}
+
+.entrar {
+    width: 19.7rem;
+    height: 7.7rem;
+    border-radius: 3rem;
+    border-color: var(--orange-color);
+
+    font-weight: 800;
+    font-size: 3rem;
+    line-height: 4.5rem;
+    color: var(--orange-color);
+    margin-top: 5rem;
+    text-transform: uppercase;
+}
+
+.boxRight {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    width: calc(100% - 50rem);
+    height: 100vh;
+    background-color: var(--blue-color);
+}
+
+.crieSuaConta {
+    font-weight: 700;
+    font-size: 5rem;
+    line-height: 6.1rem;
+    color: var(--grey-color);
+    text-shadow: 0.4rem 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+    margin-bottom: 3rem;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 3.4rem;
+    padding-top: 0.9rem;
+    margin-top: 5rem;
+}
+
+.boxForm input {
+    width: 46.4rem;
+    height: 6rem;
+    border-radius: 1.6rem;
+    
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 3rem;
+    padding: 1rem;
+
+    display: block;
+    margin-top: 2rem;
+}
+
+.boxForm input::placeholder {
+    color: var(--orange-color);
+}
+
+.boxForm small {
+    position: absolute;
+    visibility: hidden;
+    font-size: 1.4rem;
+}
+
+.formulario button {
+    margin-top: 2rem;
+    width: 17.6rem;
+    height: 5.8rem;
+    color: var(--orange-color);
+    border-color: var(--orange-color);
+    border-radius: 3rem;
+
+    font-weight: 800;
+    font-size: 2.4rem;
+    line-height: 3.6rem;
+    text-transform: uppercase;
+    margin-top: 5rem;
+}
+
+/* Sucesso */
+.boxForm.success input {
+    border-color: #1C9F11;
+}
+/* Erro */
+.boxForm.error input {
+    border-color: #DC2727;
+}
+
+.boxForm.error small {
+    visibility: visible;
+    color: #e74c3c;
+}

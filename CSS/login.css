@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+:root {
+    --black-color: #16142F;
+    --blue-color: #201E45;
+    --purple-color: #404267;
+    --orange-color: #F07B7B;
+    --grey-color: #E4E4EF;
+
+    font-size: 62.5%; /* 1rem = 10px */
+}
+
+#login {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--grey-color);
+}
+
+.boxCenter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 70%;
+    height: 70%;
+    background-color: var(--blue-color);
+    border-radius: 1.6rem 1.6rem 0 0;
+}
+
+.formLogin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 3.4rem;
+    padding-top: 0.9rem;
+    margin-top: 5rem;
+}
+
+.boxLogin {
+    display: flex;
+    align-items: center;
+
+    font-weight: 800;
+    font-size: 6rem;
+    line-height: 7.3rem;
+    color: var(--grey-color);
+    margin-bottom: 2rem;
+}
+
+.boxForm input {
+    width: 46.4rem;
+    height: 6rem;
+    border-radius: 1.6rem;
+    
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 3rem;
+    padding: 1rem;
+
+    display: block;
+    margin-top: 2rem;
+}
+
+.boxForm input::placeholder {
+    color: var(--orange-color);
+}
+
+.boxForm .msgErro {
+    position: absolute;
+    visibility: hidden;
+    font-size: 1.4rem;
+}
+
+.boxForm .esqueci {
+    position: absolute;
+    font-size: 1.4rem;
+    color: var(--orange-color);
+}
+
+.formLogin button {
+    width: 17.6rem;
+    height: 5rem;
+    color: var(--orange-color);
+    border-color: var(--orange-color);
+    border-radius: 3rem;
+
+    font-weight: 800;
+    font-size: 2.4rem;
+    line-height: 3.6rem;
+    margin-top: 5rem;
+}
+
+/* Sucesso */
+.boxForm.success input {
+    border-color: #1C9F11;
+}
+/* Erro */
+.boxForm.error input {
+    border-color: #DC2727;
+}
+
+.boxForm.error small {
+    visibility: visible;
+    color: #e74c3c;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    width: 70%;
+    height: 10%;
+    background-color: var(--black-color);
+    color: var(--grey-color);
+
+    font-weight: 600;
+    font-size: 2.4rem;
+    line-height: 3.6rem;
+
+    gap: 1.5rem;
+    padding-right: 3rem;
+    border-radius: 0 0 1.6rem 1.6rem;
+}
+
+.cadastre {
+    width: 18rem;
+    height: 5rem;
+    color: var(--orange-color);
+    border-color: var(--orange-color);
+    border-radius: 3rem;
+
+    font-weight: 800;
+    font-size: 1.6rem;
+    line-height: 3.6rem;
+}
