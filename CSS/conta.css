@@ -22,10 +22,8 @@ h1 {
     font-size: 30px;
     line-height: 37px;
     display: flex;
-    align-items: center;
-    text-align: center;
-    
-    color: #404267;
+
+    color: #F07B7B;
 }
 
 h2 {
@@ -41,6 +39,21 @@ h2 {
     color: #404267;
 }
 
+h3 {
+    width: 171px;
+    height: 54px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 49px;
+    display: flex;
+    align-items: center;
+
+    color: #F07B7B;
+}
+
 input {
     width: 600px;
     height: 50px;
@@ -51,14 +64,25 @@ input {
     background: #E4E4EF;
     border-radius: 10px;
 }
+
+/* início da sidebar */
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: #16142F;
+}
+
 /* Início do perfil */
 .profile {
     width: 271px;
     height: 66px;
-    left: 51px;
-    top: 203px;
-
-    background: #E4E4EF;
+    left: 37px;
+    top: 181px;
+    
+    background: #404267;
     border-radius: 10px;
 }
 
@@ -69,10 +93,10 @@ input {
 .registration {
     width: 271px;
     height: 66px;
-    left: 51px;
-    top: 312px;
+    left: 37px;
+    top: 181px;
 
-    background: #E4E4EF;
+    background: #404267;
     border-radius: 10px;
 }
 
@@ -86,7 +110,7 @@ input {
     left: 51px;
     top: 438px;
 
-    background: #E4E4EF;
+    background: #404267;
     border-radius: 10px;
 }
 
@@ -97,10 +121,10 @@ input {
 .donations-acquired {
     width: 271px;
     height: 66px;
-    left: 51px;
-    top: 566px;
-
-    background: #E4E4EF;
+    left: 37px;
+    top: 416px;
+    
+    background: #404267;
     border-radius: 10px;
 }
 
@@ -111,10 +135,10 @@ input {
 .donation-control {
     width: 271px;
     height: 66px;
-    left: 51px;
-    top: 692px;
+    left: 37px;
+    top: 416px;
 
-    background: #E4E4EF;
+    background: #404267;
     border-radius: 10px;
 }
 
@@ -125,10 +149,10 @@ input {
 .change-password {
     width: 271px;
     height: 66px;
-    left: 51px;
-    top: 820px;
+    left: 37px;
+    top: 416px;
 
-    background: #E4E4EF;
+    background: #404267;
     border-radius: 10px;
 }
 
@@ -137,14 +161,25 @@ input {
 /* Início do sair */
 
 .exit {
-    position: absolute;
     width: 271px;
     height: 66px;
-    left: 51px;
-    top: 946px;
-
-    background: #E4E4EF;
+    left: 37px;
+    top: 416px;
+    
+    background: #404267;
     border-radius: 10px;
 }
 
 /* Fim do sair */
+
+/* Fim da sidebar */
+
+/* Início minha conta */
+
+.my-account {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Fim minha conta */
