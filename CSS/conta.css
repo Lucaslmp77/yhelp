@@ -10,11 +10,6 @@ section {
     height: 100vh;
 }
 
-.sidebar {
-    width: 322px;
-    height: 66px;
-}
-
 h1 {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
@@ -54,6 +49,43 @@ h3 {
     color: #F07B7B;
 }
 
+h4 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 23px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #F07B7B;
+}
+
+p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+    display: flex;
+    align-items: center;
+
+    color: #404267;
+}
+
+button {
+    width: 264px;
+    height: 58px;
+    left: 1548px;
+    top: 624px;
+    cursor: pointer;
+
+    background: #E4E4EF;
+    border-radius: 20px;
+    border: none;
+}
+
 input {
     width: 600px;
     height: 50px;
@@ -68,7 +100,10 @@ input {
 /* início da sidebar */
 
 .sidebar {
+    visibility: hidden;
     position: fixed;
+    width: 352px;
+    height: 942px;
     top: 0;
     left: 0;
     height: 100%;
@@ -179,6 +214,17 @@ input {
 .my-account {
     display: flex;
     flex-direction: column;
+    padding: 20%;
+}
+
+.profile-picture {
+    width: 300px;
+    height: 300px;
+    left: 1530px;
+    top: 288px;
+
+    border-radius: 500px;
+    background: #E4E4EF;
 }
 
 
