@@ -53,6 +53,9 @@
     height: 60px;
     border-radius: 45px;
     border: 1px var(--blue-color) solid;
+    font-size: 23px;
+    font-weight: 500;
+    padding-left: 70px;
 }
 
 .pesquisar,
@@ -163,6 +166,10 @@
     align-items: center;
     flex-direction: column;
     margin-top: 0px;
+    width: 250px;
+    height: 235px;
+    background-color: white;
+    border-radius: 18px 18px 18px 18px;
 }
 
 .conteudoDoacao1 img{
@@ -170,26 +177,20 @@
     height: 170px;
 }
 
-.conteudoDoacao1Text{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    background-color: white;
-    width: 250px;
-    height: 65px;
-    border-radius: 0px 0px 18px 18px;
-}
-
-.conteudoDoacao1Text h1{
+.conteudoDoacao1 h1{
     font-style: normal;
     font-weight: 600;
     font-size: 22px;
     line-height: 29px;
 }
 
-.conteudoDoacao1Text h2{
+.conteudoDoacao1 h2{
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
     line-height: 29px;
+}
+
+.conteudoDoacao :hover{
+    box-shadow: 0 0 1em var(--purple-color);
 }
