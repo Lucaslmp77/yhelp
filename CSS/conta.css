@@ -114,6 +114,10 @@ input {
     border-radius: 10px;
 }
 
+.content-Profile {
+    display: flex;
+}
+
 /* Fim do perfil */
 
 /* Início do cadastro */
@@ -126,6 +130,10 @@ input {
 
     background: #404267;
     border-radius: 10px;
+}
+
+.content-Registration {
+    display: flex;
 }
 
 /* Fim do cadastro */
@@ -142,6 +150,10 @@ input {
     border-radius: 10px;
 }
 
+.content-Donations-Requested {
+    display: flex;
+}
+
 /* Fim das doações solicitadas */
 
 /* Início das doações adquiridas */
@@ -154,6 +166,10 @@ input {
     
     background: #404267;
     border-radius: 10px;
+}
+
+.content-Donations-Acquired {
+    display: flex;
 }
 
 /* Fim das doações adquiridas */
@@ -170,6 +186,10 @@ input {
     border-radius: 10px;
 }
 
+.content-Donation-Control {
+    display: flex;
+}
+
 /* Fim do controle de doações */
 
 /* Início do alterar senha */
@@ -184,6 +204,10 @@ input {
     border-radius: 10px;
 }
 
+.content-Change-Password {
+    display: flex;
+}
+
 /* Fim do alterar senha */
 
 /* Início do sair */
@@ -196,6 +220,10 @@ input {
     
     background: #404267;
     border-radius: 10px;
+}
+
+.content-Exit {
+    display: flex;
 }
 
 /* Fim do sair */
