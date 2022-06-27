@@ -25,10 +25,23 @@ header{
     width: 100%;
     height: 10%;
     background-color: #16142F;
+    align-items: center;
 }
 
 .Logo{
     cursor: pointer;
+}
+
+@media(max-width: 950px){
+    .Logo img{
+        width: 70%;
+    }
+    .minhaConta img{
+        width: 20%;
+    }
+    .minhaConta p{
+        font-size: 1.5rem;
+    }
 }
 .minhaConta{
     /*flex-direction: row;*/
@@ -55,8 +68,7 @@ header{
     display: flex;
     position: relative;
     width: 70%;
-    height: 50px;
-    border: black;
+    height: 200px;
     background: #C4C4C4;
     border-radius: 2px;
     top: 50%;
@@ -66,24 +78,57 @@ header{
     font-size: 1.5rem;
     justify-content: space-between;
     align-items: center;
+    flex-direction: column;
 }
+
 .container_status:hover{
-    background: #BEBEFF;
+    text-decoration: underline;
+}
+.DivDetalhes{
+    width: 70%;
+    height: 18rem;
+    border: 1px #C4C4C4 solid;
+    border-top-width: 0;
+    border-radius: 2px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -0%);
 }
 .divproduto{
     display: flex;
     flex-direction: row;
 }
 .status{
-    cursor: pointer;
+    flex-direction: column;
+    display: flex;
 }
 .detalhes{
     margin-right: 1%;
 }
-#btn{
-    display: none;
+.headerproduto{
+    flex-direction: row;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
 }
-#btn:checked + label > div {
-    width: 70%;
-    height: 150px;
+
+.produto{
+    font-size: 1.5rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.dataEhora{
+    color: dimgrey;
+}
+@media(max-width: 1000px){
+    .container_status{
+        height: 35rem;
+    }
+    .produto{
+        flex-direction: column;
+    }
 }
