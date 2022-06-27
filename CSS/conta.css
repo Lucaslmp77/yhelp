@@ -6,6 +6,10 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+:root {
+    font-size: 62.5%; /* 1rem = 10px */
+}
+
 section {
     height: 100vh;
 }
@@ -14,9 +18,8 @@ h1 {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 30px;
-    line-height: 37px;
-    display: flex;
+    font-size: 3rem;
+    line-height: 3.7rem;
 
     color: #F07B7B;
 }
@@ -27,9 +30,8 @@ h2 {
     font-weight: 500;
     font-size: 50px;
     line-height: 61px;
-    display: flex;
-    align-items: center;
-    text-align: center;
+    /* text-align: center; */
+    margin-left: 800px;
 
     color: #404267;
 }
@@ -41,10 +43,8 @@ h3 {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
-    font-size: 40px;
-    line-height: 49px;
-    display: flex;
-    align-items: center;
+    font-size: 4rem;
+    line-height: 4.9rem;
 
     color: #F07B7B;
 }
@@ -53,11 +53,8 @@ h4 {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 800;
-    font-size: 23px;
-    line-height: 28px;
-    display: flex;
-    align-items: center;
-    text-align: center;
+    font-size: 2.3rem;
+    line-height: 2.8rem;
 
     color: #F07B7B;
 }
@@ -66,10 +63,8 @@ p {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
-    font-size: 30px;
-    line-height: 37px;
-    display: flex;
-    align-items: center;
+    font-size: 3rem;
+    line-height: 3.7rem;
 
     color: #404267;
 }
@@ -100,7 +95,7 @@ input {
 /* início da sidebar */
 
 .sidebar {
-    visibility: hidden;
+    /* visibility: hidden; */
     position: fixed;
     width: 352px;
     height: 942px;
@@ -114,8 +109,6 @@ input {
 .profile {
     width: 271px;
     height: 66px;
-    left: 37px;
-    top: 181px;
     
     background: #404267;
     border-radius: 10px;
@@ -139,7 +132,7 @@ input {
 
 /* Início das doações solicitadas */
 
-.donations-requested {
+.donations-Requested {
     width: 271px;
     height: 66px;
     left: 51px;
@@ -153,7 +146,7 @@ input {
 
 /* Início das doações adquiridas */
 
-.donations-acquired {
+.donations-Acquired {
     width: 271px;
     height: 66px;
     left: 37px;
@@ -167,7 +160,7 @@ input {
 
 /* Início do controle de doações */
 
-.donation-control {
+.donation-Control {
     width: 271px;
     height: 66px;
     left: 37px;
@@ -181,7 +174,7 @@ input {
 
 /* Início do alterar senha */
 
-.change-password {
+.change-Password {
     width: 271px;
     height: 66px;
     left: 37px;
@@ -211,21 +204,29 @@ input {
 
 /* Início minha conta */
 
-.my-account {
-    display: flex;
-    flex-direction: column;
-    padding: 20%;
+.my-Account {
+    margin-left: 470px;
 }
 
-.profile-picture {
+.profile-Picture {
     width: 300px;
     height: 300px;
-    left: 1530px;
-    top: 288px;
+    margin-left: 660px;
 
     border-radius: 500px;
     background: #E4E4EF;
 }
 
+.change-PFP {
+    margin-right: 500px;
+}
 
 /* Fim minha conta */
+
+/* Início do Endereço */
+
+.address {
+    margin-left: 470px;
+}
+
+/* Fim do Endereço */
