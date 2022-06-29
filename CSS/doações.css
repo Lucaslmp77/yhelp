@@ -29,7 +29,44 @@ header{
 }
 
 .Logo{
+    width: 14%;
     cursor: pointer;
+}
+.Logo img{
+    width: 100%;
+}
+.imgheader{
+    transform: scale(0.50);
+}
+.Divbusca{
+    display: flex;
+    width: 25%;
+    height: 70px;
+    background: #E4E4EF;
+    border-radius: 50px;
+    align-items: center;
+}
+.busca{
+    width: 80%;
+    height: 63px;
+    background: none;
+    border: none;
+    border-radius: 50px;
+    font-size: 1.5rem;
+}
+.busca:focus, input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+.botaobusca{
+    width: 80px;
+    height: 70px;
+    background: #E4E4EF;
+    border: none;
+    border-radius: 50px;
+}
+.imgbusca:active{
+    transform: scale(0.80);
 }
 
 @media(max-width: 950px){
