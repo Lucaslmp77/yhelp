@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bca74213-bd1f-4475-a1d5-4c7ea9c894a6" name="Changes" comment="STATUS DE DOAÇÃO FEITA">
+    <list default="true" id="bca74213-bd1f-4475-a1d5-4c7ea9c894a6" name="Changes" comment="histórico de doação feita">
+      <change afterPath="$PROJECT_DIR$/img/busca.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CSS/histórico.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/histórico.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HTML/histórico.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/histórico.html" afterDir="false" />
@@ -71,6 +72,7 @@
       <workItem from="1656075622480" duration="602000" />
       <workItem from="1656347126289" duration="20581000" />
       <workItem from="1656371038987" duration="321000" />
+      <workItem from="1656526847293" duration="2331000" />
     </task>
     <task id="LOCAL-00001" summary="pasta de JavaScripts">
       <created>1656352133421</created>
@@ -93,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656370627471</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="histórico de doação feita">
+      <created>1656372763556</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1656372763556</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,6 +124,7 @@
     <MESSAGE value="pasta de JavaScripts" />
     <MESSAGE value="JS de doações" />
     <MESSAGE value="STATUS DE DOAÇÃO FEITA" />
-    <option name="LAST_COMMIT_MESSAGE" value="STATUS DE DOAÇÃO FEITA" />
+    <MESSAGE value="histórico de doação feita" />
+    <option name="LAST_COMMIT_MESSAGE" value="histórico de doação feita" />
   </component>
 </project>
