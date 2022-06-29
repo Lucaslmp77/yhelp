@@ -56,6 +56,7 @@
     font-size: 23px;
     font-weight: 500;
     padding-left: 70px;
+    color: var(--purple-color);
 }
 
 .pesquisar,
@@ -66,16 +67,8 @@
     align-items: center;
 }
 
-.anuncios img{
-    width: 35px;
-    height: 35px;
-}
-
-.notifi img {
-    width: 35px;
-    height: 35px;
-}
-
+.anuncios img,
+.notifi img,
 .conta img{
     width: 35px;
     height: 35px;
@@ -192,5 +185,5 @@
 }
 
 .conteudoDoacao :hover{
-    box-shadow: 0 0 1em var(--purple-color);
+    box-shadow: 0 0 1.5em var(--orange-color);
 }
