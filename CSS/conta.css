@@ -30,7 +30,6 @@ h2 {
     font-weight: 500;
     font-size: 50px;
     line-height: 61px;
-    /* text-align: center; */
     margin-left: 800px;
 
     color: #404267;
@@ -119,24 +118,6 @@ input {
 }
 
 /* Fim do perfil */
-
-/* Início do cadastro */
-
-.registration {
-    width: 271px;
-    height: 66px;
-    left: 37px;
-    top: 181px;
-
-    background: #404267;
-    border-radius: 10px;
-}
-
-.content-Registration {
-    display: flex;
-}
-
-/* Fim do cadastro */
 
 /* Início das doações solicitadas */
 
@@ -234,6 +215,11 @@ input {
 
 .my-Account {
     margin-left: 470px;
+    display: inline-block;
+}
+
+.ppf {
+    display: inline-block;
 }
 
 .profile-Picture {
