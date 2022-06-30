@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+:root {
+    font-size: 62.5%; /* 1rem = 10px */
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #404267;
+
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #404267;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #404267;
+}
+
+h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+
+    color: #404267;
+
+}
+
+h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #404267;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #404267;
+
+}
+
+button {
+    width: 203px;
+    height: 67px;
+    left: 1299px;
+    top: 561px;
+    border: none;
+    cursor: pointer;
+    
+    background: #F07B7B;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+    color: #FFFFFF;
+}
+
+.rectangle {
+    width: 1522px;
+    height: 808px;
+    left: 181px;
+    top: 211px;
+
+    background: #E4E4EF;
+    border-radius: 30px;
+}
+
+.image {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact {
+    width: 418px;
+    height: 270px;
+    left: 1191px;
+    top: 385px;
+
+    display: flex;
+
+    color: #FFFFFF;
+}
