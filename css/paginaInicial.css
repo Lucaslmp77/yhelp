@@ -167,6 +167,7 @@
     height: 235px;
     background-color: white;
     border-radius: 18px 18px 18px 18px;
+    cursor: pointer;
 }
 
 .conteudoDoacao1 img{
