@@ -94,27 +94,26 @@
     background-color:white;
     align-items: center;
     justify-content: space-around;
-    margin-top: 20px    ;
+    margin-top: 20px;
 }
 
 .botaoAnuncioAnunciar button{
-    display: flex;
     font-style: normal;
     font-weight: 800;
     font-size: 22px;
     line-height: 36px;
-    color: var(--orange-color);
+    color: var(--purple-color);
     background-color: var(--grey-color);
     width: 176px;
     height: 59px;
     align-items: center;
     justify-content: center;
     border-radius: 25px;
-    box-shadow: 0px 0px 20px 2px var(--orange-color);
+    box-shadow: 0px 0px 10px 1px var(--purple-color);
 }
 
 .botaoAnuncioAnunciar :hover{
-    box-shadow: 0px 0px 20px 10px var(--orange-color);
+    box-shadow: 0px 0px 15px 5px var(--purple-color);
 }
 
     /*CONTEUDO DOS ULTIMOS ANUNCIOS POSTADOS*/
@@ -190,5 +189,5 @@
 }
 
 .conteudoDoacao :hover{
-    box-shadow: 0px 0px 15px 2px var(--orange-color);
+    box-shadow: 0px 0px 15px 2px var(--purple-color);
 }
