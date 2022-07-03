@@ -14,7 +14,7 @@ section {
     height: 100vh;
 }
 
-h1 {
+span {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -28,8 +28,8 @@ h2 {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 50px;
-    line-height: 61px;
+    font-size: 5rem;
+    line-height: 6.1rem;
     margin-left: 800px;
 
     color: #404267;
@@ -91,10 +91,14 @@ input {
     border-radius: 10px;
 }
 
+ul {
+    list-style-type: none;
+}
+
 /* início da sidebar */
 
 .sidebar {
-    /* visibility: hidden; */
+    visibility: hidden;
     position: fixed;
     width: 352px;
     height: 942px;
@@ -104,122 +108,39 @@ input {
     background-color: #16142F;
 }
 
-/* Início do perfil */
-.profile {
+.rectangle a {
     width: 271px;
-    height: 66px;
-    
-    background: #404267;
-    border-radius: 10px;
-}
-
-.content-Profile {
+    height: 68.16px;
+    margin-bottom: 60px;
+    align-items: center;
+    justify-items: center;
     display: flex;
-}
-
-/* Fim do perfil */
-
-/* Início das doações solicitadas */
-
-.donations-Requested {
-    width: 271px;
-    height: 66px;
-    left: 51px;
-    top: 438px;
 
     background: #404267;
     border-radius: 10px;
 }
 
-.content-Donations-Requested {
+.rectangle {
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
     display: flex;
 }
-
-/* Fim das doações solicitadas */
-
-/* Início das doações adquiridas */
-
-.donations-Acquired {
-    width: 271px;
-    height: 66px;
-    left: 37px;
-    top: 416px;
-    
-    background: #404267;
-    border-radius: 10px;
-}
-
-.content-Donations-Acquired {
-    display: flex;
-}
-
-/* Fim das doações adquiridas */
-
-/* Início do controle de doações */
-
-.donation-Control {
-    width: 271px;
-    height: 66px;
-    left: 37px;
-    top: 416px;
-
-    background: #404267;
-    border-radius: 10px;
-}
-
-.content-Donation-Control {
-    display: flex;
-}
-
-/* Fim do controle de doações */
-
-/* Início do alterar senha */
-
-.change-Password {
-    width: 271px;
-    height: 66px;
-    left: 37px;
-    top: 416px;
-
-    background: #404267;
-    border-radius: 10px;
-}
-
-.content-Change-Password {
-    display: flex;
-}
-
-/* Fim do alterar senha */
-
-/* Início do sair */
-
-.exit {
-    width: 271px;
-    height: 66px;
-    left: 37px;
-    top: 416px;
-    
-    background: #404267;
-    border-radius: 10px;
-}
-
-.content-Exit {
-    display: flex;
-}
-
-/* Fim do sair */
-
-/* Fim da sidebar */
 
 /* Início minha conta */
 
-.my-Account {
-    margin-left: 470px;
-    display: inline-block;
+.content {
+    display: flex;
+    flex-direction: row;
 }
 
-.ppf {
-    display: inline-block;
+.my-Account {
+    flex-direction: column;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
 }
 
 .profile-Picture {
@@ -231,16 +152,9 @@ input {
     background: #E4E4EF;
 }
 
-.change-PFP {
-    margin-right: 500px;
-}
-
 /* Fim minha conta */
 
 /* Início do Endereço */
 
-.address {
-    margin-left: 470px;
-}
 
 /* Fim do Endereço */

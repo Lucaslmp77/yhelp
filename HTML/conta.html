@@ -11,42 +11,55 @@
     <aside>
         <!-- Início da Sidebar-->
         <div class="sidebar">
-            <div class="profile">
-                <div class="content-Profile">
-                    <img src="../img/profile.png" alt="profile.png">
-                    <h1>Perfil</h1>
-                </div>
-            </div>
-            <div class="donations-Requested">
-                <div class="content-Donations-Requested">
-                    <img src="../img/donations-requested.png" alt="donations-requested.png">
-                    <h1>Doações solicitadas</h1>
-                </div>
-            </div>
-            <div class="donations-acquired">
-                <div class="content-donations-acquired">
-                    <img src="../img/donations-acquired.png" alt="donations-acquired.png">
-                    <h1>Doações adquiridas</h1>
-                </div>
-            </div>
-            <div class="donation-Control">
-                <div class="content-Donation-Control">
-                    <img src="../img/donation-control.png" alt="donation-control.png">
-                    <h1>Controle de Doações</h1>
-                </div>
-            </div>
-            <div class="change-Password">
-                <div class="content-Change-Password">
-                    <img src="../img/change-password.png" alt="change-password.png">
-                    <h1>Alterar senha</h1>
-                </div>
-            </div>
-            <div class="exit">
-                <div class="content-Exit">
-                    <img src="../img/exit.png" alt="exit.png">
-                    <h1>Sair</h1>
-                </div>
-            </div>
+                <ul class="rectangle">
+                    <li>
+                      <a class="ancHome">
+                        <img src="../img/profile.png">
+                        <span class="linksName">Perfil</span>
+                      </a>
+                    </li>
+                  </ul>
+                  <ul class="rectangle">
+                    <li>
+                      <a class="ancRelevancia">
+                        <img src="../img/donations-requested.png">
+                        <span class="linksName">Doações Solicitadas</span>
+                      </a>
+                    </li>
+                  </ul>
+                  <ul class="rectangle">
+                    <li>
+                      <a class="ancAlfabetica">
+                        <img src="../img/donations-acquired.png">
+                        <span class="linksName">Doações Adquiridas</span>
+                      </a>
+                    </li>
+                  </ul>
+                  <ul class="rectangle">
+                    <li>
+                      <a class="ancMmorpg">
+                        <img src="../img/donation-control.png">
+                        <span class="linksName">Controle de doações</span>
+                      </a>
+                    </li>
+                  </ul>
+                  <ul class="rectangle">
+                    <li>
+                      <a class="ancMoba">
+                        <img src="../img/change-password.png">
+                        <span class="linksName">Alterar senha</span>
+                      </a>
+                    </li>
+                  </ul>
+                  <ul class="rectangle">
+                    <li>
+                      <a class="ancCard">
+                        <img src="../img/exit.png">
+                        <span class="linksName">Sair</span>
+                      </a>
+                    </li>
+                  </ul>
+            <!-- </div> -->
         </div>
     </aside>
         <!-- Fim da sidebar -->
@@ -54,6 +67,7 @@
         <!-- Início da minha conta -->
         <section>
         <h2>Minha conta</h2>
+        <div class="content">
         <div class="my-Account">
             <h3>Perfil</h3>
             <div class="name">
@@ -72,34 +86,42 @@
             <div class="birth">
                 <input type="date">
             </div>
-        </div>
-
-        <div class="pfp">
-            <div class="profile-Picture"></div>
-            <button class="change-PFP" type="button">
-                <h4>Mudar foto de perfil</h4>
-            </button>
-        </div>
-
             <div class="address">
                 <h3>Endereço</h3>
+                <p>CEP</p>
+                <div class="zip-Code">
+                    <input type="number">
+                </div>
                 <p>Rua</p>
                 <div class="street">
-                    <input type="text">
+                    <input type="text" disabled>
                 </div>
                 <p>bairro</p>
                 <div class="neighborhood">
-                    <input type="text">
+                    <input type="text" disabled>
+                </div>
+                <p>Cidade</p>
+                <div class="city">
+                    <input type="text" disabled>
+                </div>
+                <p>UF</p>
+                <div class="FD">
+                    <input type="text" disabled>
                 </div>
                 <p>Número</p>
                 <div class="number">
                     <input type="number">
                 </div>
-                <p>Cidade</p>
-                <div class="city">
-                    <input type="text">
-                </div>
         </div>
+        </div>
+            
+        <div class="profile">
+        <div class="profile-Picture"></div>
+        <button class="change-PFP" type="button">
+            <h4>Mudar foto de perfil</h4>
+        </button>
+    </div>
+    </div>
         <!-- Fim da minha conta -->
     </section>
 </body>
