@@ -30,7 +30,6 @@ h2 {
     font-weight: 500;
     font-size: 5rem;
     line-height: 6.1rem;
-    margin-left: 800px;
 
     color: #404267;
 }
@@ -71,8 +70,7 @@ p {
 button {
     width: 264px;
     height: 58px;
-    left: 1548px;
-    top: 624px;
+
     cursor: pointer;
 
     background: #E4E4EF;
@@ -81,12 +79,10 @@ button {
 }
 
 input {
-    width: 600px;
+    width: 478px;
     height: 50px;
-    left: 623px;
-    top: 422px;
     border: none;
-
+    
     background: #E4E4EF;
     border-radius: 10px;
 }
@@ -95,16 +91,19 @@ ul {
     list-style-type: none;
 }
 
+.organizating {
+    width: 100%;
+    height: 100vh;
+}
+
 /* início da sidebar */
 
 .sidebar {
-    visibility: hidden;
+    /* visibility: hidden; */
     position: fixed;
-    width: 352px;
+    width: 20%;
     height: 942px;
-    top: 0;
-    left: 0;
-    height: 100%;
+
     background-color: #16142F;
 }
 
@@ -131,30 +130,31 @@ ul {
 
 .content {
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
+    justify-content: center;
+    width: 50%;
+    height: 100vh;
+
 }
 
 .my-Account {
+    width: 50%;
     flex-direction: column;
 }
 
 .profile {
+    width: 50%;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .profile-Picture {
     width: 300px;
     height: 300px;
-    margin-left: 660px;
 
     border-radius: 500px;
     background: #E4E4EF;
 }
 
 /* Fim minha conta */
-
-/* Início do Endereço */
-
-
-/* Fim do Endereço */
