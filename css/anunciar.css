@@ -123,6 +123,7 @@ form small{
     border-radius: 50%;
     border-top-color:#A0151E;
     animation: is-rotating 1s infinite;
+    visibility: hidden;
 }
 @keyframes is-rotating{
     to{
