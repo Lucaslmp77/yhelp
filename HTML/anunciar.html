@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>anunciar</title>
+        <link rel="stylesheet" href="../CSS/anunciar.css">
+    </head>
+    <body>
+        <section id="anunciar">
+            <header>
+                <a class="Logo"><img src="../img/logo.png"></a>
+                <div class="Divbusca">
+                    <button class="botaobusca" type="submit"><img class="imgbusca" src="../img/busca.png"></button>
+                    <input class="busca" placeholder="Buscar...">
+                </div>
+                <div class="minhaConta">
+                    <a class="minhaconta"><img class="imgheader" src="../img/anuncios.png"><p class="pheader">Meus anúncios</p></a>
+                </div>
+                <div class="minhaConta">
+                    <a class="minhaconta"><img class="imgheader" src="../img/sino.png"><p class="pheader">Notificações</p></a>
+                </div>
+                <div class="minhaConta">
+                    <a class="minhaconta"><img class="imgheader" src="../img/avatar.png"><p class="pheader">Minha Conta</p></a>
+                </div>
+            </header>
+            <div class="paginaInicialAnunciar">
+                <div class="conteudoAnunciar">
+                    <h1>
+                        O que você está querendo anunciar?
+                    </h1>
+                    <div class="formularioCompletoAnunciar">
+                        <div class="formularioTextoAnunciar">
+                            <form 
+                                class="formulario" id="formulario">
+                                <div class="controleFormulario">
+                                    <label
+                                        for="tituloAnunciar">
+                                        Título
+                                    </label>
+                                    <input
+                                        type="text"
+                                        id="tituloAnunciar">
+                                    <small>Error Message</small>
+                                </div>
+                                <div class="controleFormulario">
+                                    <label
+                                        for="descricaoAnunciar">
+                                        Coloque uma descrição do produto
+                                    </label>
+                                    <textarea
+                                        id="descricaoAnunciar"
+                                        name="descricaoAnunciar"
+                                        rows="5"
+                                        cols="33">
+                                    </textarea>
+                                    <small>Error Message</small>
+                                </div>
+                                <div class="controleFormulario">
+                                    <label for="opcaoAnunciar">
+                                        Escolha uma Categoria
+                                    </label>
+                                    <select
+                                        id="opcaoAnunciar">
+                                        <option></option>
+                                        <option>Roupas</option>
+                                        <option>Eletrônicos</option>
+                                        <option>Sapatos</option>
+                                        <option>Brinquedos</option>
+                                        <option>Outros</option>
+                                    </select>
+                                    <small>Error Message</small>
+                                </div>
+                                <div class="controleFormulario">
+                                    <label
+                                        for="emailAnunciar">
+                                        E-mail
+                                    </label>
+                                    <input
+                                        type="email"
+                                        id="emailAnunciar">
+                                    <small>Error Message</small>
+                                </div>
+                                <div class="controleFormulario">
+                                    <label
+                                        for="telefoneAnunciar">
+                                        Telefone
+                                    </label>
+                                    <input
+                                        type="number"
+                                        id="telefoneAnunciar">
+                                    <small>Error Message</small>
+                                </div>
+                                <div class="controleFormulario">
+                                    <label for="cepAnunciar">CEP</label>
+                                    <input 
+                                        type="number" 
+                                        id="cepAnunciar">
+                                    <small>Error Message</small>
+                                </div>
+                                <div class="controleFormulario">
+                                    <label for="rua">Rua</label>
+                                    <input 
+                                        type="email" 
+                                        id="rua">
+                                    <span class="loading"></span>
+                                </div>
+                                <div class="controleFormulario">
+                                    <label for="bairro">Bairro</label>
+                                    <input 
+                                        type="text" 
+                                        id="bairro">
+                                    <span 
+                                        id="bair" class="loading">
+                                    </span>
+                                </div>
+                                <div class="controleFormulario">
+                                    <label for="cidade">Cidade</label>
+                                    <input 
+                                        type="text" 
+                                        id="cidade">
+                                    <span class="loading"></span>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="formularioDireitoAnunciar">
+                            <div class="formularioFotoAnunciar">
+                                <img src="../img/iconeImg.png" alt="">
+                            </div>
+                            <div class="botaoUpload">
+                                <button>Carregar</button>
+                            </div>
+                            <div class="botaoAnunciar">
+                                <button>Anunciar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script src="../js/anunciar.js"></script>
+    </body>
+</html>

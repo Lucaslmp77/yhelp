@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="/CSS/login.css">
+        <link rel="stylesheet" href="../CSS/login.css">
         <title>login</title>
     </head>
     <body>
@@ -12,16 +12,16 @@
             <div class="boxCenter">
                 <form id="formLogin" class="formLogin">
                     <div class="boxLogin">
-                        <img src="/img/login.png" alt="login">
+                        <img src="../img/login.png" alt="login">
                         <h2 class="titleLogin">Login</h2>
                     </div>
+                    <div id="msgError"></div>
                     <div class="boxForm">
                         <input 
                             type="text" 
                             id="email" 
                             placeholder="E-mail"
                         />
-                        <small class="msgErro">Mensagem de erro</small>
                     </div>
                     <div class="boxForm">
                         <input
@@ -29,15 +29,20 @@
                             id="password"
                             placeholder="Senha"
                         />
-                        <small class="msgErro">Mensagem de erro</small>
+                        <i id="visuPassword" class="fa fa-eye" aria-hidden="true"></i>
                         <small class="esqueci">Esqueci minha senha</small>
                     </div>
-                    <button class="logar" type="submit">Logar</button>
+                </form>
+                <button class="logar" type="submit" onclick='logar()'>Entrar</button>
             </div>
             <footer>
                 <p>Ainda não tem conta ?</p>
                 <button class="cadastre">CADASTRAR-SE</button>
             </footer>
         </section>
+
+        <script src="../JS/login.js"></script>
+        <script src="https://kit.fontawesome.com/7f757cdac0.js" crossorigin="anonymous"></script>
+
     </body>
 </html>

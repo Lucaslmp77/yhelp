@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+:root {
+    --black-color: #16142F;
+    --blue-color: #201E45;
+    --purple-color: #404267;
+    --orange-color: #F07B7B;
+    --grey-color: #C4C4C4;
+    --letras-color: #BEBEFF;
+    font-size: 62.5%; /* 1rem = 10px */
+}
+
+header{
+    position: fixed;
+    padding: 1%;
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    height: 10%;
+    background-color: #16142F;
+    align-items: center;
+}
+
+.Logo{
+    width: 14%;
+    cursor: pointer;
+}
+.Logo img{
+    width: 100%;
+}
+.imgheader{
+    transform: scale(0.50);
+}
+.Divbusca{
+    display: flex;
+    width: 25%;
+    height: 50px;
+    background: #E4E4EF;
+    border-radius: 50px;
+    align-items: center;
+}
+.busca{
+    width: 80%;
+    height: 43px;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+}
+.busca:focus, input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+.botaobusca{
+    width: 60px;
+    height: 45px;
+    background: #E4E4EF;
+    border: none;
+    border-radius: 50px;
+}
+.imgbusca:active{
+    transform: scale(0.80);
+}
+@media(max-width: 950px){
+    .Logo img{
+        width: 100%;
+    }
+    .minhaConta img{
+        width: 50%;
+    }
+    .minhaConta p{
+        font-size: 1.5rem;
+    }
+    .pheader{
+        display: none;
+    }
+    .Divbusca{
+        width: 40%;
+        height: 40px;
+    }
+    .botaobusca{
+        width: 50px;
+        height: 25px;
+    }
+    .imgbusca{
+        width: 60%;
+    }
+}
+.DivFantasma{
+    width: 10%;
+}
+.Divdireito{
+    width: 80%;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+}
+.minhaConta{
+
+    color: #BEBEFF;
+    font-size: 2.2rem;
+    align-items: center;
+    justify-items: center;
+    cursor: pointer;
+}
+.minhaconta{
+    color: #BEBEFF;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+}
+
+span {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 3rem;
+    line-height: 3.7rem;
+
+    color: #F07B7B;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 5rem;
+    line-height: 6.1rem;
+    display: flex;
+    color: #404267;
+
+}
+
+h3 {
+    width: 171px;
+    height: 54px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 4rem;
+    line-height: 4.9rem;
+
+    color: #F07B7B;
+}
+
+h4 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 2.3rem;
+    line-height: 2.8rem;
+
+    color: #F07B7B;
+}
+
+label {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 3rem;
+    line-height: 3.7rem;
+    padding: 2%;
+
+    color: #404267;
+}
+
+button {
+    width: 264px;
+    height: 58px;
+
+    cursor: pointer;
+
+    background: #E4E4EF;
+    border-radius: 20px;
+    border: none;
+}
+
+input {
+    width: 478px;
+    height: 50px;
+    border: none;
+    
+    background: #E4E4EF;
+    border-radius: 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.organizating {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* início da sidebar */
+
+.sidebar {
+    /* visibility: hidden; */
+    position: fixed;
+    width: 20%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #16142F;
+    align-items: center;
+    justify-content: center;
+}
+
+.rectangle a {
+    width: 271px;
+    height: 68.16px;
+    margin-bottom: 36px;
+    align-items: center;
+    justify-items: center;
+    display: flex;
+
+    background: #404267;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.rectangle {
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.Logoside{
+    margin-bottom: 20%;
+}
+
+.Logoside img{
+    transform: scale(0.75);
+}
+/* Início minha conta */
+
+.content {
+    margin-top: 8%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /*justify-content: center;*/
+    width: 75%;
+    height: 100vh;
+}
+
+.containerInside{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.my-Account {
+    width: 40%;
+    flex-direction: column;
+}
+
+.disabled {
+    cursor: no-drop;
+}
+
+.profile {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-Picture {
+    width: 300px;
+    height: 300px;
+
+    border-radius: 500px;
+    background: #E4E4EF;
+}
+
+.address h3 {
+    padding: 1%;
+}
+
+.containerInside h3 {
+    margin-left: 10%;
+}
+
+/* Fim minha conta */

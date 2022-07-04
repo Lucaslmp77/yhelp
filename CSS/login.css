@@ -24,7 +24,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: var(--grey-color);
+    background-color: var(--purple-color);
 }
 
 .boxCenter {
@@ -52,10 +52,22 @@
     align-items: center;
 
     font-weight: 800;
-    font-size: 6rem;
+    font-size: 3rem;
     line-height: 7.3rem;
     color: var(--grey-color);
     margin-bottom: 2rem;
+}
+
+#msgError {
+    text-align: center;
+    color: #ff0000;
+    background-color: #ffbbbb;
+    width: 45rem;
+    height: 5rem;
+    padding: 1rem;
+    border-radius: 0.4rem;
+    display: none;
+    font-size: 2rem;
 }
 
 .boxForm input {
@@ -76,19 +88,23 @@
     color: var(--orange-color);
 }
 
-.boxForm .msgErro {
+.fa-eye {
     position: absolute;
-    visibility: hidden;
-    font-size: 1.4rem;
+    margin-top: -3.7rem;
+    margin-left: 43rem;
+    color: var(--orange-color);
+    cursor: pointer;
+    font-size: 2rem;
 }
 
 .boxForm .esqueci {
     position: absolute;
     font-size: 1.4rem;
     color: var(--orange-color);
+    cursor: pointer;
 }
 
-.formLogin button {
+button {
     width: 17.6rem;
     height: 5rem;
     color: var(--orange-color);
@@ -98,21 +114,7 @@
     font-weight: 800;
     font-size: 2.4rem;
     line-height: 3.6rem;
-    margin-top: 5rem;
-}
-
-/* Sucesso */
-.boxForm.success input {
-    border-color: #1C9F11;
-}
-/* Erro */
-.boxForm.error input {
-    border-color: #DC2727;
-}
-
-.boxForm.error small {
-    visibility: visible;
-    color: #e74c3c;
+    cursor: pointer;
 }
 
 footer {
@@ -125,7 +127,7 @@ footer {
     color: var(--grey-color);
 
     font-weight: 600;
-    font-size: 2.4rem;
+    font-size: 1.8rem;
     line-height: 3.6rem;
 
     gap: 1.5rem;
@@ -143,4 +145,78 @@ footer {
     font-weight: 800;
     font-size: 1.6rem;
     line-height: 3.6rem;
+}
+
+@media(max-width: 500px){
+    .boxCenter {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 90%;
+        height: 80%;
+        background-color: var(--blue-color);
+        border-radius: 1.6rem 1.6rem 0 0;
+    }
+    .boxForm input {
+        width: 36rem;
+        height: 6rem;
+        border-radius: 1.6rem;
+        
+        font-weight: 400;
+        font-size: 2rem;
+        line-height: 3rem;
+        padding: 1rem;
+    
+        display: block;
+        margin-top: 2rem;
+    }
+    .fa-eye {
+        position: absolute;
+        margin-top: -3.7rem;
+        margin-left: 32rem;
+        color: var(--orange-color);
+        cursor: pointer;
+        font-size: 2rem;
+    }
+    button {
+        width: 14rem;
+        height: 5rem;
+        color: var(--orange-color);
+        border-color: var(--orange-color);
+        border-radius: 3rem;
+    
+        font-weight: 800;
+        font-size: 2rem;
+        line-height: 3.6rem;
+        cursor: pointer;
+    }
+    footer {
+        display: flex;
+        align-items: center;
+        justify-content: right;
+        width: 90%;
+        height: 10%;
+        background-color: var(--black-color);
+        color: var(--grey-color);
+    
+        font-weight: 600;
+        font-size: 1.6rem;
+        line-height: 2rem;
+    
+        gap: 1rem;
+        padding-right: 3rem;
+        border-radius: 0 0 1.6rem 1.6rem;
+    }
+    .cadastre {
+        width: 15rem;
+        height: 5rem;
+        color: var(--orange-color);
+        border-color: var(--orange-color);
+        border-radius: 3rem;
+    
+        font-weight: 800;
+        font-size: 1.6rem;
+        line-height: 3rem;
+    }
 }

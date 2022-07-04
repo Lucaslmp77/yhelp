@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="../CSS/conta.css" rel="stylesheet">
+        <title>Minha conta</title>
+    </head>
+    <body>
+        <aside>
+        <header>
+            <div class="DivFantasma"></div>
+            <div class="Divdireito">
+                <div class="Divbusca">
+                    <button class="botaobusca"><img class="imgbusca" src="../img/busca.png"></button>
+                    <input class="busca" placeholder="Buscar...">
+                </div>
+                <div class="minhaConta">
+                    <a class="minhaconta"><img class="imgheader" src="../img/anuncios.png"><p>Meus anúncios</p></a>
+                </div>
+                <div class="minhaConta">
+                    <a class="minhaconta"><img class="imgheader" src="../img/sino.png"><p>Notificações</p></a>
+                </div>
+                <div class="minhaConta">
+                    <a class="minhaconta"><img class="imgheader" src="../img/avatar.png"><p>Minha Conta</p></a>
+                </div>
+            </div>
+        </header>
+        </aside>
+        <div class="organizating">
+            <aside>
+            <!-- Início da Sidebar-->
+            <div class="sidebar">
+                <a class="Logoside"><img src="../img/logo.png"></a>
+                    <ul class="rectangle">
+
+                        <li>
+                        <a class="ancHome">
+                            <img src="../img/profile.png">
+                            <span class="linksName">Perfil</span>
+                        </a>
+                        </li>
+                    </ul>
+                    <ul class="rectangle">
+                        <li>
+                        <a href="http://127.0.0.1:5500/HTML/doacoesSolicitadas.html" class="ancRelevancia">
+                            <img src="../img/donations-requested.png">
+                            <span class="linksName">Doações Solicitadas</span>
+                        </a>
+                        </li>
+                    </ul>
+                    <ul class="rectangle">
+                        <li>
+                        <a href="http://127.0.0.1:5500/HTML/historicoDoacoes.html" class="ancAlfabetica">
+                            <img src="../img/donations-acquired.png">
+                            <span class="linksName">Doações Adquiridas</span>
+                        </a>
+                        </li>
+                    </ul>
+                    <ul class="rectangle">
+                        <li>
+                        <a href="http://127.0.0.1:5500/HTML/controleDoacao.html" class="ancMmorpg">
+                            <img src="../img/donation-control.png">
+                            <span class="linksName">Controle de doações</span>
+                        </a>
+                        </li>
+                    </ul>
+                    <ul class="rectangle">
+                        <li>
+                        <a href="http://127.0.0.1:5500/HTML/recuperar%20senha.html" class="ancMoba">
+                            <img src="../img/change-password.png">
+                            <span class="linksName">Alterar senha</span>
+                        </a>
+                        </li>
+                    </ul>
+                    <ul class="rectangle">
+                        <li>
+                        <a class="ancCard" onclick="quit()">
+                            <img src="../img/exit.png">
+                            <span class="linksName">Sair</span>
+                        </a>
+                        </li>
+                    </ul>
+                <!-- </div> -->
+            </div>
+            </aside>
+            <!-- Fim da sidebar -->
+
+            <!-- Início da minha conta -->
+            <div class="content">
+                <h2>Minha conta</h2>
+                <div class="containerInside">
+                    <div class="my-Account">
+                    <h3>Perfil</h3>
+                    <div class="name">
+                        <label>Nome</label>
+                        <input type="text">
+                    </div>
+                    <div class="email">
+                        <label>E-mail</label>
+                        <input type="email">
+                    </div>
+                    <label>Telefone</label>
+                    <div class="phone">
+                        <input type="tel">
+                    </div>
+                    <label>Data de Nascimento</label>
+                    <div class="birth">
+                        <input type="date">
+                    </div>
+                    <div class="address">
+                        <h3>Endereço</h3>
+                        <label>CEP</label>
+                        <div class="zip-Code">
+                            <input type="number">
+                        </div>
+                        <label>Rua</label>
+                        <div class="street">
+                            <input type="text" disabled>
+                        </div>
+                        <label>bairro</label>
+                        <div class="neighborhood">
+                            <input type="text" disabled>
+                        </div>
+                        <label>Cidade</label>
+                        <div class="city">
+                            <input type="text" disabled>
+                        </div>
+                        <label>UF</label>
+                        <div class="FD">
+                            <input type="text" disabled>
+                        </div>
+                        <label>Número</label>
+                        <div class="number">
+                            <input type="number">
+                        </div>
+                </div>
+                </div>
+                    <div class="profile">
+                        <div class="profile-Picture"></div>
+                        <button class="change-PFP" type="button">
+                    <h4>Mudar foto de perfil</h4>
+                </button>
+                    </div>
+                </div>
+        </div>
+            <!-- Fim da minha conta -->
+        </div>
+
+        <script src="../JS/sair.js"></script>
+
+    </body>
+</html>

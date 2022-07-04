@@ -43,14 +43,14 @@
 
 .yLogo{
     font-weight: 800;
-    font-size: 5.5rem;
+    font-size: 5rem;
     line-height: 6.7rem;
     color: var(--grey-color);
 }
 
 .title {
     font-weight: 800;
-    font-size: 4.5rem;
+    font-size: 4rem;
     line-height: 5.5rem;
     color: var(--orange-color);
 }
@@ -69,7 +69,7 @@
 
 .bemVindo {
     font-weight: 900;
-    font-size: 4.5rem;
+    font-size: 3.5rem;
     line-height: 6.8rem;
     color: var(--grey-color);
 }
@@ -82,17 +82,18 @@
 }
 
 .entrar {
-    width: 19.7rem;
-    height: 7.7rem;
+    width: 19rem;
+    height: 7rem;
     border-radius: 3rem;
     border-color: var(--orange-color);
 
     font-weight: 800;
-    font-size: 3rem;
+    font-size: 2.5rem;
     line-height: 4.5rem;
     color: var(--orange-color);
     margin-top: 5rem;
     text-transform: uppercase;
+    cursor: pointer;
 }
 
 .boxRight {
@@ -108,11 +109,34 @@
 
 .crieSuaConta {
     font-weight: 700;
-    font-size: 5rem;
+    font-size: 4.5rem;
     line-height: 6.1rem;
     color: var(--grey-color);
     text-shadow: 0.4rem 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
     margin-bottom: 3rem;
+}
+
+#registerError {
+    text-align: center;
+    color: #ff0000;
+    background-color: #ffbbbb;
+    width: 45rem;
+    height: 5rem;
+    border-radius: 0.4rem;
+    font-size: 1.8rem;
+    display: none;
+}
+
+#registerSuccess {
+    text-align: center;
+    padding: 1rem;
+    color: #00bb00;
+    background-color: #bbffbe;
+    width: 45rem;
+    height: 5rem;
+    border-radius: 0.4rem;
+    font-size: 1.8rem;
+    display: none;
 }
 
 .formulario {
@@ -148,7 +172,16 @@
     font-size: 1.4rem;
 }
 
-.formulario button {
+.fa-eye {
+    position: absolute;
+    margin-top: -3.7rem;
+    margin-left: 43rem;
+    color: var(--orange-color);
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+#botao {
     margin-top: 2rem;
     width: 17.6rem;
     height: 5.8rem;
@@ -160,19 +193,73 @@
     font-size: 2.4rem;
     line-height: 3.6rem;
     text-transform: uppercase;
-    margin-top: 5rem;
+    cursor: pointer;
 }
 
 /* Sucesso */
 .boxForm.success input {
+    border: 0.3rem solid;
     border-color: #1C9F11;
 }
 /* Erro */
 .boxForm.error input {
+    border: 0.3rem solid;
     border-color: #DC2727;
 }
 
 .boxForm.error small {
     visibility: visible;
     color: #e74c3c;
+}
+
+@media(max-width: 500px){
+    #cadastrar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        background-color: var(--black-color);
+    }
+    .boxLeft{
+        visibility: hidden;
+    }
+    .boxLeft {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;    
+        width: 30rem;
+        height: 100vh;
+        background-color: var(--black-color);
+    }
+    .crieSuaConta {
+        font-weight: 700;
+        font-size: 4.5rem;
+        line-height: 6.1rem;
+        color: var(--grey-color);
+        text-shadow: 0.4rem 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+        width: 45rem;
+        padding: 0rem 2rem;
+    }
+    .boxForm input {
+        width: 40rem;
+        height: 6rem;
+        border-radius: 1.6rem;
+        
+        font-weight: 400;
+        font-size: 2rem;
+        line-height: 3rem;
+        padding: 1rem;
+    
+        display: block;
+        margin-top: 2rem;
+    }
+    .fa-eye {
+        position: absolute;
+        margin-top: -3.7rem;
+        margin-left: 35rem;
+        color: var(--orange-color);
+        cursor: pointer;
+        font-size: 2rem;
+    }
 }

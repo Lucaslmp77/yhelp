@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="/CSS/cadastrar.css">
+        <link rel="stylesheet" href="../CSS/cadastrar.css">
         <title>Yhelp</title>
     </head>
     <body>
@@ -12,7 +12,7 @@
             <div class="boxLeft">
                 <div class="boxLogo">
                     <h1 class="title"><span class="yLogo">Y</span>.HELP</h1>
-                    <img src="/img/imgLogo.png" alt="hand with heart">
+                    <img src="../img/imgLogo.png" alt="hand with heart">
                 </div>
                 <div class="boxLow">
                     <h2 class="bemVindo">Bem vindo!</h2>
@@ -23,6 +23,8 @@
             <div class="boxRight">
                 <form id="formulario" class="formulario">
                     <h2 class="crieSuaConta">CRIE SUA CONTA</h2>
+                    <div id="registerError"></div>
+                    <div id="registerSuccess"></div>
                     <div class="boxForm">
                         <input
                             type="text"
@@ -46,6 +48,7 @@
                         placeholder="Senha"
                         />
                         <small>Mensagem de erro</small>
+                        <i id="visuPassword" class="fa fa-eye" aria-hidden="true"></i>
                     </div>
                     <div class="boxForm">
                         <input
@@ -54,10 +57,15 @@
                         placeholder="Confirme sua senha"
                         />
                         <small>Mensagem de erro</small>
+                        <i id="visuConfirm" class="fa fa-eye" aria-hidden="true"></i>
                     </div>
-                    <button class="cadastrar" type="submit">Cadastrar</button>
                 </form>
+                <button id="botao" class="cadastrar" type="submit" onclick="register()">Cadastrar</button>
             </div>
         </section>
+
+        <script src="../JS/cadastrar.js"></script>
+        <script src="https://kit.fontawesome.com/7f757cdac0.js" crossorigin="anonymous"></script>
+        
     </body>
 </html>
