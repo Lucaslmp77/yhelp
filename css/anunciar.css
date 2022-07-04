@@ -103,11 +103,11 @@ form small{
 }
 
 .controleFormulario.success input {
-    border: 3px solid #4ECA64;
+    border: 1px solid #4ECA64;
 }
 
 .controleFormulario.error input {
-    border: 3px solid #ff0000;
+    border: 1px solid #ff0000;
 }
 
 .controleFormulario.error small{

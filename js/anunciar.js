@@ -21,8 +21,10 @@ descricao.addEventListener('blur', function(){
     const descricaoValue = descricao.value.trim()
     if(descricaoValue === '') {
         setErrorFor(descricao, 'Preencha esse campo')
+        descricao.setAttribute('style', 'border-color: red')
     } else {
         setSuccessFor(descricao)
+        descricao.setAttribute('style', 'border-color: green')
     }
 });
 
@@ -31,8 +33,10 @@ opcao.addEventListener('blur', function(){
     const opcaoValue = opcao.value.trim()
     if(opcaoValue === '') {
         setErrorFor(opcao, 'Preencha esse campo')
+        opcao.setAttribute('style', 'border-color: red')
     } else {
         setSuccessFor(opcao)
+        opcao.setAttribute('style', 'border-color: green')
     }
 });
 
