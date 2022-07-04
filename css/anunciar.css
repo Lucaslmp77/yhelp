@@ -24,6 +24,95 @@
     justify-content: center;
 }
 
+header{
+    padding: 1%;
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    height: 10%;
+    background-color: #16142F;
+    align-items: center;
+}
+
+.Logo{
+    width: 14%;
+    cursor: pointer;
+}
+.Logo img{
+    width: 100%;
+}
+.imgheader{
+    transform: scale(0.50);
+}
+.Divbusca{
+    display: flex;
+    width: 25%;
+    height: 50px;
+    background: #E4E4EF;
+    border-radius: 50px;
+    align-items: center;
+}
+.busca{
+    width: 80%;
+    height: 43px;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+}
+.busca:focus, input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+.botaobusca{
+    width: 60px;
+    height: 45px;
+    background: #E4E4EF;
+    border: none;
+    border-radius: 50px;
+}
+.imgbusca:active{
+    transform: scale(0.80);
+}
+@media(max-width: 950px){
+    .Logo img{
+        width: 100%;
+    }
+    .minhaConta img{
+        width: 50%;
+    }
+    .minhaConta p{
+        font-size: 1.5rem;
+    }
+    .pheader{
+        display: none;
+    }
+    .Divbusca{
+        width: 40%;
+        height: 40px;
+    }
+    .botaobusca{
+        width: 50px;
+        height: 25px;
+    }
+    .imgbusca{
+        width: 60%;
+    }
+}
+.minhaConta{
+    flex-direction: row;
+    color: #BEBEFF;
+    font-size: 2.5rem;
+    align-items: center;
+    justify-items: center;
+    cursor: pointer;
+}
+.minhaconta{
+    color: #BEBEFF;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+}
+
 .conteudoAnunciar{
     display: flex;
     width: 95%;
