@@ -93,10 +93,19 @@ header{
         width: 60%;
     }
 }
+.DivFantasma{
+    width: 10%;
+}
+.Divdireito{
+    width: 80%;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+}
 .minhaConta{
-    /*flex-direction: row;*/
+
     color: #BEBEFF;
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     align-items: center;
     justify-items: center;
     cursor: pointer;
@@ -229,7 +238,7 @@ ul {
     flex-direction: column;
 }
 .Logoside{
-    margin-bottom: 28%;
+    margin-bottom: 25%;
 }
 
 /* Início minha conta */
