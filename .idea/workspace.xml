@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bca74213-bd1f-4475-a1d5-4c7ea9c894a6" name="Changes" comment="ajustando" />
+    <list default="true" id="bca74213-bd1f-4475-a1d5-4c7ea9c894a6" name="Changes" comment="adicionado header em conta">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/conta.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/conta.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/conta.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/conta.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,7 +25,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="controle_doação" />
+        <entry key="$PROJECT_DIR$" value="971df5fa0b244b903cdff4946f61abd7a86d7d22" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -38,22 +42,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\renan\Documents\yhelp\img" />
@@ -79,6 +83,7 @@
       <workItem from="1656608038770" duration="2394000" />
       <workItem from="1656867193151" duration="2872000" />
       <workItem from="1656878305502" duration="2880000" />
+      <workItem from="1656950247269" duration="2298000" />
     </task>
     <task id="LOCAL-00002" summary="tela histórico finalizada">
       <created>1656533601351</created>
@@ -115,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656881103187</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="adicionado header em conta">
+      <created>1656955373986</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1656955373986</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,7 +144,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="controle_doação" />
+                        <option value="conta" />
                       </list>
                     </value>
                   </entry>
@@ -152,6 +164,8 @@
     <MESSAGE value="responsividade melhorada" />
     <MESSAGE value="favicon add" />
     <MESSAGE value="ajustando" />
-    <option name="LAST_COMMIT_MESSAGE" value="ajustando" />
+    <MESSAGE value="voltando branch" />
+    <MESSAGE value="adicionado header em conta" />
+    <option name="LAST_COMMIT_MESSAGE" value="adicionado header em conta" />
   </component>
 </project>
