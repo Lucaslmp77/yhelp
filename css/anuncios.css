@@ -27,6 +27,7 @@
     display: flex;
     align-items: center;
     justify-content:flex-end;
+    flex-wrap: wrap-reverse;
     padding: 60px 0px;
 }
 
@@ -53,6 +54,7 @@
     border-radius: 5px;
     margin-right: 66px;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
 }
 
 .anunciosButton button{
@@ -69,10 +71,7 @@
     justify-content: center;
     border-radius: 25px;
     box-shadow: 0px 0px 20px 2px var(--purple-color);
-}
-
-.anunciosButton :hover{
-    box-shadow: 0px 0px 20px 10px var(--purple-color);
+    cursor: pointer;
 }
 
 .anunciosConteudo{
@@ -127,6 +126,21 @@
     padding-top: 5px;
 }
 
-.anunciosAnuncios :hover{
-    box-shadow: 0px 0px 15px 2px var(--purple-color);
+@media (max-width: 500px){
+    .anunciosPrimeiroConteudo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column-reverse;
+    }
+    
+    .anunciosPrimeiroConteudo button,
+    .anunciosPrimeiroConteudo select,
+    .anunciosPrimeiroConteudo input{
+        margin: 15px 20px;
+    }
+
+    .anunciosAnuncios {
+        box-shadow: 0px 6px 1px rgba(0, 0, 0, 0.1);
+    }
 }
