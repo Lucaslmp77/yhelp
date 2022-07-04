@@ -51,7 +51,7 @@ header{
     width: 80%;
     height: 43px;
     background: none;
-    border: none;
+    border: #E4E4EF;
     font-size: 1.5rem;
 }
 .busca:focus, input:focus {
@@ -62,7 +62,7 @@ header{
     width: 60px;
     height: 45px;
     background: #E4E4EF;
-    border: none;
+    border: #E4E4EF;
     border-radius: 50px;
 }
 .imgbusca:active{
@@ -180,13 +180,13 @@ button {
 
     background: #E4E4EF;
     border-radius: 20px;
-    border: none;
+    border: #E4E4EF;
 }
 
 input {
     width: 478px;
     height: 50px;
-    border: none;
+    border: #E4E4EF;
     
     background: #E4E4EF;
     border-radius: 10px;
@@ -295,6 +295,20 @@ ul {
 
 .containerInside h3 {
     margin-left: 10%;
+}
+
+.form-Content small {
+    bottom: 0;
+    left: 0;
+    visibility: visible;
+    font-size: 1.2rem;
+    color: #C02F1F;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 22px;
 }
 
 /* Fim minha conta */
