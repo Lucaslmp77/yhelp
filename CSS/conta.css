@@ -59,6 +59,7 @@ p {
     font-weight: 500;
     font-size: 3rem;
     line-height: 3.7rem;
+    padding: 2%;
 
     color: #404267;
 }
@@ -100,7 +101,7 @@ ul {
 .sidebar {
     /* visibility: hidden; */
     position: fixed;
-    width: 15%;
+    width: 20%;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -133,7 +134,7 @@ ul {
     align-items: center;
     flex-direction: column;
     /*justify-content: center;*/
-    width: 85%;
+    width: 75%;
     height: 100vh;
 }
 
@@ -167,6 +168,14 @@ ul {
 
     border-radius: 500px;
     background: #E4E4EF;
+}
+
+.address h3 {
+    padding: 1%;
+}
+
+.containerInside h3 {
+    margin-left: 10%;
 }
 
 /* Fim minha conta */
