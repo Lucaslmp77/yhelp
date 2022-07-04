@@ -10,10 +10,6 @@
     font-size: 62.5%; /* 1rem = 10px */
 }
 
-section {
-    height: 100vh;
-}
-
 span {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
@@ -30,7 +26,7 @@ h2 {
     font-weight: 500;
     font-size: 5rem;
     line-height: 6.1rem;
-
+    display: flex;
     color: #404267;
 }
 
@@ -94,6 +90,9 @@ ul {
 .organizating {
     width: 100%;
     height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 /* início da sidebar */
@@ -101,9 +100,10 @@ ul {
 .sidebar {
     /* visibility: hidden; */
     position: fixed;
-    width: 20%;
-    height: 942px;
-
+    width: 15%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
     background-color: #16142F;
 }
 
@@ -130,15 +130,23 @@ ul {
 
 .content {
     display: flex;
-    /* flex-direction: row; */
-    justify-content: center;
-    width: 50%;
+    align-items: center;
+    flex-direction: column;
+    /*justify-content: center;*/
+    width: 85%;
     height: 100vh;
-
 }
 
+.containerInside{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
 .my-Account {
-    width: 50%;
+    width: 40%;
     flex-direction: column;
 }
 
@@ -147,7 +155,7 @@ ul {
 }
 
 .profile {
-    width: 50%;
+    width: 40%;
     display: flex;
     flex-direction: column;
     align-items: center;

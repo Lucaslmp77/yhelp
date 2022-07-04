@@ -1,0 +1,65 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"bca74213-bd1f-4475-a1d5-4c7ea9c894a6\" name=\"Changes\" comment=\"histórico de doação feita\">\r\n      <change afterPath=\"$PROJECT_DIR$/img/busca.png\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/CSS/histórico.css\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/CSS/histórico.css\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/HTML/histórico.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/HTML/histórico.html\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"JavaScript File\" />\r\n        <option value=\"HTML File\" />\r\n        <option value=\"CSS File\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"doações_solicitadas/status\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2Azgc1CWTbkume99YphWjROLr5P\" />\r\n  <component name=\"ProjectLevelVcsManager\">\r\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,\r\n    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,\r\n    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,\r\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,\r\n    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,\r\n    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;\r\n  }\r\n}</component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"bca74213-bd1f-4475-a1d5-4c7ea9c894a6\" name=\"Changes\" comment=\"\" />\r\n      <created>1656017903290</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1656017903290</updated>\r\n      <workItem from=\"1656017904719\" duration=\"5097000\" />\r\n      <workItem from=\"1656074897123\" duration=\"647000\" />\r\n      <workItem from=\"1656075622480\" duration=\"602000\" />\r\n      <workItem from=\"1656347126289\" duration=\"20581000\" />\r\n      <workItem from=\"1656371038987\" duration=\"321000\" />\r\n      <workItem from=\"1656526847293\" duration=\"2331000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"pasta de JavaScripts\">\r\n      <created>1656352133421</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1656352133421</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"JS de doações\">\r\n      <created>1656352184364</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1656352184364</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"STATUS DE DOAÇÃO FEITA\">\r\n      <created>1656370627471</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1656370627471</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"histórico de doação feita\">\r\n      <created>1656372763556</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1656372763556</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"5\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <option name=\"ADD_EXTERNAL_FILES_SILENTLY\" value=\"true\" />\r\n    <MESSAGE value=\"pasta de JavaScripts\" />\r\n    <MESSAGE value=\"JS de doações\" />\r\n    <MESSAGE value=\"STATUS DE DOAÇÃO FEITA\" />\r\n    <MESSAGE value=\"histórico de doação feita\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"histórico de doação feita\" />\r\n  </component>\r\n</project>
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -4,12 +4,7 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="bca74213-bd1f-4475-a1d5-4c7ea9c894a6" name="Changes" comment="histórico de doação feita">
+-      <change afterPath="$PROJECT_DIR$/img/busca.png" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/CSS/histórico.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/histórico.css" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/HTML/histórico.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/histórico.html" afterDir="false" />
+-    </list>
++    <list default="true" id="bca74213-bd1f-4475-a1d5-4c7ea9c894a6" name="Changes" comment="imagens" />
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -72,7 +67,7 @@
+       <workItem from="1656075622480" duration="602000" />
+       <workItem from="1656347126289" duration="20581000" />
+       <workItem from="1656371038987" duration="321000" />
+-      <workItem from="1656526847293" duration="2331000" />
++      <workItem from="1656526847293" duration="2761000" />
+     </task>
+     <task id="LOCAL-00001" summary="pasta de JavaScripts">
+       <created>1656352133421</created>
+@@ -102,7 +97,21 @@
+       <option name="project" value="LOCAL" />
+       <updated>1656372763556</updated>
+     </task>
+-    <option name="localTasksCounter" value="5" />
++    <task id="LOCAL-00005" summary="header finalizado">
++      <created>1656529589663</created>
++      <option name="number" value="00005" />
++      <option name="presentableId" value="LOCAL-00005" />
++      <option name="project" value="LOCAL" />
++      <updated>1656529589663</updated>
++    </task>
++    <task id="LOCAL-00006" summary="imagens">
++      <created>1656529599747</created>
++      <option name="number" value="00006" />
++      <option name="presentableId" value="LOCAL-00006" />
++      <option name="project" value="LOCAL" />
++      <updated>1656529599747</updated>
++    </task>
++    <option name="localTasksCounter" value="7" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -125,6 +134,8 @@
+     <MESSAGE value="JS de doações" />
+     <MESSAGE value="STATUS DE DOAÇÃO FEITA" />
+     <MESSAGE value="histórico de doação feita" />
+-    <option name="LAST_COMMIT_MESSAGE" value="histórico de doação feita" />
++    <MESSAGE value="header finalizado" />
++    <MESSAGE value="imagens" />
++    <option name="LAST_COMMIT_MESSAGE" value="imagens" />
+   </component>
+ </project>
+\ No newline at end of file
