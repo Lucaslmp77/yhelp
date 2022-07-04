@@ -142,6 +142,10 @@ ul {
     flex-direction: column;
 }
 
+.disabled {
+    cursor: no-drop;
+}
+
 .profile {
     width: 50%;
     display: flex;
