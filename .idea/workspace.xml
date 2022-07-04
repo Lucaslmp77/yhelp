@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bca74213-bd1f-4475-a1d5-4c7ea9c894a6" name="Changes" comment="voltando branch">
-      <change afterPath="$PROJECT_DIR$/img/logo.png" afterDir="false" />
+    <list default="true" id="bca74213-bd1f-4475-a1d5-4c7ea9c894a6" name="Changes" comment="adicionado header em conta">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CSS/conta.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/conta.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HTML/conta.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/conta.html" afterDir="false" />
@@ -84,7 +83,7 @@
       <workItem from="1656608038770" duration="2394000" />
       <workItem from="1656867193151" duration="2872000" />
       <workItem from="1656878305502" duration="2880000" />
-      <workItem from="1656950247269" duration="1313000" />
+      <workItem from="1656950247269" duration="2298000" />
     </task>
     <task id="LOCAL-00002" summary="tela histórico finalizada">
       <created>1656533601351</created>
@@ -121,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656881103187</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="adicionado header em conta">
+      <created>1656955373986</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1656955373986</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,6 +165,7 @@
     <MESSAGE value="favicon add" />
     <MESSAGE value="ajustando" />
     <MESSAGE value="voltando branch" />
-    <option name="LAST_COMMIT_MESSAGE" value="voltando branch" />
+    <MESSAGE value="adicionado header em conta" />
+    <option name="LAST_COMMIT_MESSAGE" value="adicionado header em conta" />
   </component>
 </project>
