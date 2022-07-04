@@ -138,7 +138,7 @@ function register() {
         registerError.setAttribute('style', 'display: none');
 
             setTimeout(() => {
-                window.location.href = 'http://127.0.0.1:5500/HTML/login.html'
+                window.location.href = '../HTML/login.html'
             }, 2000)
 
     }else{
@@ -154,7 +154,7 @@ function register() {
 let botAcess = document.querySelector('.entrar')
 
 botAcess.addEventListener('click', ()=>{
-    window.location.href = 'http://127.0.0.1:5500/HTML/login.html'
+    window.location.href = '../HTML/login.html'
 })
 
 /* =============DEBOUNCE============= */

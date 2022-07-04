@@ -38,7 +38,7 @@ function logar() {
     });
 
     if(email.value == userValid.email && password.value == userValid.password){
-        window.location.href = 'http://127.0.0.1:5500/HTML/paginaInicial.html'
+        window.location.href = '../HTML/paginaInicial.html'
 
         let token = Math.random().toString(16).substring(2) + Math.random().toString(16).substring(2)
         localStorage.setItem('token', token)
@@ -58,11 +58,11 @@ function logar() {
 let esqueciSenha = document.querySelector('.esqueci')
 
 esqueciSenha.addEventListener('click', ()=>{
-    window.location.href = 'http://127.0.0.1:5500/HTML/recuperar%20senha.html'
+    window.location.href = '../HTML/recuperarSenha.html'
 })
 
 let botCadastre = document.querySelector('.cadastre')
 
 botCadastre.addEventListener('click', ()=>{
-    window.location.href = 'http://127.0.0.1:5500/HTML/cadastrar.html'
+    window.location.href = '../HTML/cadastrar.html'
 })
