@@ -165,7 +165,7 @@ form small{
 
 .botaoUpload{
     margin-top: 10px;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
 }
 
 .botaoUpload button,
@@ -177,6 +177,7 @@ form small{
     color: var(--purple-color);
     font-weight: 800;
     font-size: 24px;
+    margin-bottom: 80px;
 }
 
 .botaoUpload :hover{
@@ -192,7 +193,6 @@ form small{
 @media (max-width: 530px){
 
     .conteudoAnunciar h1{
-        margin-top: 750px;
         font-size: 40px;
     }
 
@@ -208,7 +208,7 @@ form small{
     }
 
     .formularioDireitoAnunciar{
-        width: 70%;
+        width: 100%;
         align-items: center;
     }
 }
