@@ -32,6 +32,45 @@ opcao.addEventListener('blur', function(){
     if(opcaoValue === '') {
         setErrorFor(opcao, 'Preencha esse campo')
     } else {
-        setSuccessFor
+        setSuccessFor(opcao)
     }
 });
+
+email.addEventListener('blur', function(){
+
+    const emailValue = email.value.trim()
+    if(emailValue === '') {
+        setErrorFor(email, 'Preencha esse campo')
+    } else if (!isEmail(emailValue)) {
+        setErrorFor(email, 'Email inválido')
+    } else {
+        setSuccessFor(email)
+    }
+});
+
+telefone.addEventListener('blur', function(){
+
+    const telefoneValue = telefone.value.trim()
+    if(telefoneValue === '') {
+        setErrorFor(telefone, 'Preencha esse campo')
+    } else if(telefoneValue.length == 12){
+        setErrorFor(telefone, 'Numero de telefone invalido')
+    } else {
+        setSuccessFor(telefone);
+    }
+});
+
+function setErrorFor(input, message) {
+    const controleFormulario = input.parentElement;
+    const small = controleFormulario.querySelector('small')
+
+    small.innerText = message
+
+    controleFormulario.className = 'controleFormulario error'
+}
+
+function setSuccessFor(input) {
+    const controleFormulario = input.parentElement;
+    
+    controleFormulario.className = 'controleFormulario success'
+}

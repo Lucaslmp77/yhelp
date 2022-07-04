@@ -102,15 +102,15 @@ form small{
     margin-bottom: 20px;
 }
 
-.formulario.success input {
+.controleFormulario.success input {
     border: 3px solid #4ECA64;
 }
 
-.formulario.error input {
+.controleFormulario.error input {
     border: 3px solid #ff0000;
 }
 
-.formulario.error small{
+.controleFormulario.error small{
     color: #ff0000;
     visibility: visible;
 }
