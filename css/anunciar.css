@@ -19,8 +19,6 @@
 }
 
 .paginaInicialAnunciar{
-    width: 100%;
-    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -103,16 +101,33 @@ form small{
 }
 
 .controleFormulario.success input {
-    border: 1px solid #4ECA64;
+    border: 2px solid #4ECA64;
 }
 
 .controleFormulario.error input {
-    border: 1px solid #ff0000;
+    border: 2px solid #ff0000;
 }
 
 .controleFormulario.error small{
     color: #ff0000;
     visibility: visible;
+}
+
+.loading{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    right: -5px;
+    top: -35px;
+    border: 5px solid #FC5118;
+    border-radius: 50%;
+    border-top-color:#A0151E;
+    animation: is-rotating 1s infinite;
+}
+@keyframes is-rotating{
+    to{
+        transform: rotate(1turn);
+    }
 }
 
 .formularioDireitoAnunciar{
