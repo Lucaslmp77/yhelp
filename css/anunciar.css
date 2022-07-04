@@ -25,9 +25,11 @@
 }
 
 .conteudoAnunciar{
+    display: flex;
     width: 95%;
     border: 1px #cfd0e4dd solid;
     border-radius: 10px;
+    flex-direction: column;
 }
 
 .conteudoAnunciar h1{
@@ -42,8 +44,9 @@
 
 .formularioCompletoAnunciar{
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 100%;
 }
 
@@ -119,9 +122,9 @@ form small{
     height: 30px;
     right: -5px;
     top: -35px;
-    border: 5px solid #FC5118;
+    border: 5px solid var(--blue-color);
     border-radius: 50%;
-    border-top-color:#A0151E;
+    border-top-color:var(--purple-color);
     animation: is-rotating 1s infinite;
     visibility: hidden;
 }

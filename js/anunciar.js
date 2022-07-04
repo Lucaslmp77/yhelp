@@ -70,14 +70,21 @@ telefone.addEventListener('blur', function(){
 
 cep.addEventListener('blur', function(e){
 
-    let cep = e.target.value;
-    limparInput();
-    let script = document.createElement('script');
-    script.src = 'https://viacep.com.br/ws/'+cep+'/json/?callback=popularForm';
-    addLoading();
-    document.body.appendChild(script);
-    if(cep === ''){
-        removLoading();
+    const cepValue = cep.value.trim()
+    if(cepValue === '') {
+        setErrorFor(cep, 'Preencha esse campo')
+    } else if(cepValue.length != 8){
+        setErrorFor(cep, 'Número de CEP invalido')
+    } else {
+        let cep = e.target.value;
+        limparInput();
+        let script = document.createElement('script');
+        script.src = 'https://viacep.com.br/ws/'+cep+'/json/?callback=popularForm';
+        addLoading();
+        document.body.appendChild(script);
+        if(cep === ''){
+            removLoading();
+        }
     }
 });
 
