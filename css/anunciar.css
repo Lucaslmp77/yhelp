@@ -29,6 +29,7 @@
 .conteudoAnunciar{
     width: 95%;
     border: 1px #cfd0e4dd solid;
+    border-radius: 10px;
 }
 
 .conteudoAnunciar h1{
@@ -58,6 +59,11 @@
     flex-direction: column;
 }
 
+.controleFormulario{
+    display: flex;
+    flex-direction: column;
+}
+
 form label{
     font-style: normal;
     font-weight: 300;
@@ -71,7 +77,6 @@ form input{
     font-size: 21px;
     border: 1px black solid;
     padding-left: 5px;
-    margin-bottom: 20px;
 }
 
 form textarea{
@@ -79,18 +84,35 @@ form textarea{
     font-size: 21px;
     border: 1px black solid;
     padding-left: 5px;
-    margin-bottom: 20px;
 }
 
 form select{
     height: 40px;
     border: 1px black solid;
     font-size: 21px;
-    margin-bottom: 20px;
 }
 
 select option{
     font-size: 21px;
+}
+
+form small{
+    visibility: hidden;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.formulario.success input {
+    border: 3px solid #4ECA64;
+}
+
+.formulario.error input {
+    border: 3px solid #ff0000;
+}
+
+.formulario.error small{
+    color: #ff0000;
+    visibility: visible;
 }
 
 .formularioDireitoAnunciar{
