@@ -4,10 +4,38 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bca74213-bd1f-4475-a1d5-4c7ea9c894a6" name="Changes" comment="adicionado header em conta">
+    <list default="true" id="bca74213-bd1f-4475-a1d5-4c7ea9c894a6" name="Changes" comment="arrumando header denovo">
+      <change afterPath="$PROJECT_DIR$/CSS/cadeira.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CSS/header.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/cadeira.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/calçado.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/camera.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/celular.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/liquidificador.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/radio.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/televisão.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/ventilador.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/Liquidificador.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/cadeiraRodas.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/calçados.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/camera.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/iphone-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/radio.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/televisão.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/ventilador.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_27_06_2022_20_15__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_27_06_2022_20_15__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_29_06_2022_16_07__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_29_06_2022_16_07__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/anunciar.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/anunciar.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CSS/conta.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/conta.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/doacoesSolicitadas.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/doacoesSolicitadas.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/historicoDoacoes.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/historicoDoacoes.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/paginaInicial.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/paginaInicial.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/anunciar.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/anunciar.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HTML/conta.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/conta.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/doacoesSolicitadas.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/doacoesSolicitadas.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/historicoDoacoes.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/historicoDoacoes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/paginaInicial.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/paginaInicial.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,15 +45,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="971df5fa0b244b903cdff4946f61abd7a86d7d22" />
+        <entry key="$PROJECT_DIR$" value="conta" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -83,7 +111,8 @@
       <workItem from="1656608038770" duration="2394000" />
       <workItem from="1656867193151" duration="2872000" />
       <workItem from="1656878305502" duration="2880000" />
-      <workItem from="1656950247269" duration="2298000" />
+      <workItem from="1656950247269" duration="4833000" />
+      <workItem from="1657029189620" duration="23106000" />
     </task>
     <task id="LOCAL-00002" summary="tela histórico finalizada">
       <created>1656533601351</created>
@@ -127,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656955373986</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="arrumando header denovo">
+      <created>1656956603986</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1656956603986</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,6 +202,7 @@
     <MESSAGE value="ajustando" />
     <MESSAGE value="voltando branch" />
     <MESSAGE value="adicionado header em conta" />
-    <option name="LAST_COMMIT_MESSAGE" value="adicionado header em conta" />
+    <MESSAGE value="arrumando header denovo" />
+    <option name="LAST_COMMIT_MESSAGE" value="arrumando header denovo" />
   </component>
 </project>

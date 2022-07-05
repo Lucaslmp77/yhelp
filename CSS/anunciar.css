@@ -18,10 +18,9 @@
     font-size: 62.5%; /* 1rem = 10px */
 }
 
-.paginaInicialAnunciar{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+#paginaInicial{
+    width: 100vw;
+    height: 100vh;
 }
 
 header{
@@ -39,7 +38,7 @@ header{
     cursor: pointer;
 }
 .Logo img{
-    width: 100%;
+    width: 80%;
 }
 .imgheader{
     transform: scale(0.50);
@@ -73,12 +72,57 @@ header{
 .imgbusca:active{
     transform: scale(0.80);
 }
+.menu{
+    list-style:none;
+    border: none;
+    float:left;
+}
+.menu li{
+    position:relative;
+    float:left;
+    border: none;
+}
+.menu li a{color: #BEBEFF; text-decoration:none; padding:5px 10px; display:block;}
+
+.menu li a:hover{
+
+    background:#333;
+    color:#fff;
+    -moz-box-shadow:0 3px 10px 0 #CCC;
+    -webkit-box-shadow:0 3px 10px 0 #ccc;
+    text-shadow:0px 0px 5px #fff;
+}
+.menu li ul li a{
+    font-size: 1.5rem;
+    color: black;
+}
+.menu li  ul{
+    position:absolute;
+    top:40px;
+    left:0;
+    background-color:#fff;
+    display:none;
+}
+.menu li{
+    display: flex;
+    align-items: center;
+}
+.menu li:hover ul, .menu li.over ul{display:block;}
+.menu li ul li{
+    border: none;
+    display:block;
+    width:100%;
+}
 @media(max-width: 950px){
     .Logo img{
         width: 100%;
     }
     .minhaConta img{
         width: 50%;
+    }
+
+    .menu{
+        font-size: 1rem;
     }
     .minhaConta p{
         font-size: 1.5rem;
@@ -124,7 +168,7 @@ header{
 .conteudoAnunciar h1{
     font-style: normal;
     font-weight: 800;
-    font-size: 60px;
+    font-size: 40px;
     line-height: 73px;
     color: var(--purple-color);
     padding-top: 2%;
@@ -246,11 +290,7 @@ form small{
     width: 60%;
 }
 
-.formularioFotoAnunciar :hover{
-    width: 70.5%;
-    height: 245px;
-    transition: 0.2s;
-}
+
 
 .botaoUpload{
     margin-top: 10px;
@@ -261,22 +301,29 @@ form small{
 .botaoAnunciar button{
     width: 145px;
     height: 50px;
-    border: 3px var(--purple-color) solid;
-    border-radius: 12px;
-    color: var(--purple-color);
-    font-weight: 800;
-    font-size: 24px;
-    margin-bottom: 80px;
+    border-radius: 10px;
+    background-color: #F07B7B;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 29px;
+    cursor: pointer;
+    border: none;
 }
 
-.botaoUpload :hover{
-    width: 150px;
-    height: 55px;
+.botaoUpload button:hover{
+    color: white;
 }
 
-.botaoAnunciar :hover{
-    width: 150px;
-    height: 55px;
+.botaoAnunciar button:hover{
+    color: white;
+}
+.botaoAnunciar button:active{
+    transform: scale(0.95);
+}
+.botaoUpload button:active{
+    transform: scale(0.95);
 }
 
 @media (max-width: 530px){

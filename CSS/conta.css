@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;900&display=swap');
 
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -13,20 +13,28 @@
     --blue-color: #201E45;
     --purple-color: #404267;
     --orange-color: #F07B7B;
-    --grey-color: #C4C4C4;
-    --letras-color: #BEBEFF;
+    --grey-color: #E4E4EF;
+
     font-size: 62.5%; /* 1rem = 10px */
 }
 
-header{
+#paginaInicial{
+    width: 100vw;
+    height: 100vh;
+}
+aside{
     position: fixed;
+    width: 100%;
+}
+header{
     padding: 1%;
     justify-content: space-between;
     display: flex;
     width: 100%;
-    height: 10%;
+    /*height: 10%;*/
     background-color: #16142F;
     align-items: center;
+    z-index: 10;
 }
 
 .Logo{
@@ -34,7 +42,7 @@ header{
     cursor: pointer;
 }
 .Logo img{
-    width: 100%;
+    width: 80%;
 }
 .imgheader{
     transform: scale(0.50);
@@ -51,7 +59,7 @@ header{
     width: 80%;
     height: 43px;
     background: none;
-    border: #E4E4EF;
+    border: none;
     font-size: 1.5rem;
 }
 .busca:focus, input:focus {
@@ -62,11 +70,52 @@ header{
     width: 60px;
     height: 45px;
     background: #E4E4EF;
-    border: #E4E4EF;
+    border: none;
     border-radius: 50px;
 }
 .imgbusca:active{
     transform: scale(0.80);
+}
+.menu{
+    list-style:none;
+    border: none;
+    float:left;
+}
+.menu li{
+    position:relative;
+    float:left;
+    border: none;
+}
+.menu li a{color: #BEBEFF; text-decoration:none; padding:5px 10px; display:block;}
+
+.menu li a:hover{
+
+    background:#333;
+    color:#fff;
+    -moz-box-shadow:0 3px 10px 0 #CCC;
+    -webkit-box-shadow:0 3px 10px 0 #ccc;
+    text-shadow:0px 0px 5px #fff;
+}
+.menu li ul li a{
+    font-size: 1.5rem;
+    color: black;
+}
+.menu li  ul{
+    position:absolute;
+    top:40px;
+    left:0;
+    background-color:#fff;
+    display:none;
+}
+.menu li{
+    display: flex;
+    align-items: center;
+}
+.menu li:hover ul, .menu li.over ul{display:block;}
+.menu li ul li{
+    border: none;
+    display:block;
+    width:100%;
 }
 @media(max-width: 950px){
     .Logo img{
@@ -74,6 +123,10 @@ header{
     }
     .minhaConta img{
         width: 50%;
+    }
+
+    .menu{
+        font-size: 1rem;
     }
     .minhaConta p{
         font-size: 1.5rem;
@@ -93,19 +146,10 @@ header{
         width: 60%;
     }
 }
-.DivFantasma{
-    width: 10%;
-}
-.Divdireito{
-    width: 80%;
-    justify-content: space-around;
-    display: flex;
-    align-items: center;
-}
 .minhaConta{
-
+    flex-direction: row;
     color: #BEBEFF;
-    font-size: 2.2rem;
+    font-size: 2.5rem;
     align-items: center;
     justify-items: center;
     cursor: pointer;
@@ -121,12 +165,19 @@ span {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 3rem;
-    line-height: 3.7rem;
-
+    font-size:2.5rem;
+    line-height: 2.5rem;
+    display: flex;
     color: #F07B7B;
 }
+@media(max-width: 1550px){
+    span{
+        display: none;
+    }
+    .sidebar{
 
+    }
+}
 h2 {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
@@ -184,7 +235,7 @@ button {
 }
 
 input {
-    width: 478px;
+    width: 100%;
     height: 50px;
     border: #E4E4EF;
     
@@ -195,31 +246,31 @@ input {
 ul {
     list-style-type: none;
 }
-
 .organizating {
-    width: 100%;
+
     height: 90vh;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-end;
 }
 
 /* início da sidebar */
 
 .sidebar {
-    /* visibility: hidden; */
+    margin-top: 5.2%;
     position: fixed;
-    width: 20%;
-    height: 100vh;
+    width: 15%;
+    height: 90vh;
     display: flex;
     flex-direction: column;
     background-color: #16142F;
     align-items: center;
     justify-content: center;
+    z-index: 0;
 }
 
 .rectangle a {
-    width: 271px;
+    width: 100%;
     height: 68.16px;
     margin-bottom: 36px;
     align-items: center;
@@ -232,11 +283,15 @@ ul {
 }
 
 .rectangle {
+    width: 90%;
     align-items: center;
     justify-content: center;
     justify-items: center;
     display: flex;
     flex-direction: column;
+}
+.rectangle li{
+    width: 100%;
 }
 .Logoside{
     margin-bottom: 20%;
@@ -252,8 +307,8 @@ ul {
     display: flex;
     align-items: center;
     flex-direction: column;
-    /*justify-content: center;*/
-    width: 75%;
+    margin-left: 20%;
+    width: 100%;
     height: 100vh;
 }
 
@@ -265,6 +320,7 @@ ul {
     padding-top: 5%;
     padding-bottom: 5%;
 }
+
 .my-Account {
     width: 40%;
     flex-direction: column;
@@ -298,17 +354,12 @@ ul {
 }
 
 .form-Content small {
-    bottom: 0;
-    left: 0;
-    visibility: visible;
-    font-size: 1.2rem;
-    color: #C02F1F;
 
+    color: #C02F1F;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 15px;
-    line-height: 22px;
+    line-height: 15px;
 }
 
 /* Fim minha conta */

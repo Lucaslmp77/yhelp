@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>paginaInicial</title>
         <link rel="stylesheet" href="../CSS/paginaInicial.css">
+        <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon" />
     </head>
     <body>
-        <section id="paginaInicial">
             <header>
-                <a class="Logo"><img src="../img/logo.png"></a>
+                <a class="Logo" href="paginaInicial.html"><img src="../img/logo.png"></a>
                 <div class="Divbusca">
                     <button class="botaobusca" type="submit"><img class="imgbusca" src="../img/busca.png"></button>
                     <input class="busca" placeholder="Buscar...">
@@ -21,76 +21,83 @@
                 <div class="minhaConta">
                     <a class="minhaconta"><img class="imgheader" src="../img/sino.png"><p class="pheader">Notificações</p></a>
                 </div>
-                <div class="minhaConta">
-                    <a href="conta.html" class="minhaconta"><img class="imgheader" src="../img/avatar.png"><p class="pheader">Minha Conta</p></a>
+                <<div class="minhaConta">
+                    <!--<a href="conta.html" class="minhaconta"><img class="imgheader" src="../img/avatar.png"><p class="pheader">Minha Conta</p></a>-->
+                <ul class="menu">
+                    <li><img class="imgheader" src="../img/avatar.png">
+                        <a href="#">Minha conta</a>
+                        <ul>
+                            <li><a href="anunciar.html">Anunciar</a></li>
+                            <li><a href="doacoesSolicitadas.html">Status de doação</a></li>
+                            <li><a href="#">Meus anúncios</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
                 </div>
-            </header> 
-            <div class="botaoAnuncioAnunciar">
-                <a href="anuncios.html">
-                    <button>Anúncios</button>
-                </a>
-                <a href="anunciar.html">
-                    <button>Anunciar</button>
-                </a>
+            </header>
+        <div class="HomeContent">
+            <div class="Gallery">
+                <div class="GalleryCard">
+                    <div class="ConteudoCard">
+                        <img src="../img/cadeiraRodas.jpg">
+                        <h2 class="CardTitle">Cadeira de rodas</h2>
+                    </div>
+                    <a href="cadeira.html"><button class="RequestProduct">Mais Detalhes</button></a>
+                </div>
+                <div class="GalleryCard">
+                    <div class="ConteudoCard">
+                        <img src="../img/calçados.jpg">
+                        <h2 class="CardTitle">Tenis</h2>
+                    </div>
+                    <a href="calçado.html"><button class="RequestProduct">Mais Detalhes</button></a>
+                </div>
+                <div class="GalleryCard">
+                    <div class="ConteudoCard">
+                        <img src="../img/camera.jpg">
+                        <h2 class="CardTitle">Câmera</h2>
+                    </div>
+                    <a href="camera.html"><button class="RequestProduct">Mais Detalhes</button></a>
+                </div>
+                <div class="GalleryCard">
+                    <div class="ConteudoCard">
+                        <img src="../img/iphone-6.jpg">
+                        <h2 class="CardTitle">Celular</h2>
+                    </div>
+                    <a href="celular.html"><button class="RequestProduct">Mais Detalhes</button></a>
+                </div>
+                <div class="GalleryCard">
+                    <div class="ConteudoCard">
+                        <img src="../img/Liquidificador.jpg">
+                        <h2 class="CardTitle">Liquidificador</h2>
+                    </div>
+                    <a href="liquidificador.html"><button class="RequestProduct">Mais Detalhes</button></a>
+                </div>
+                <div class="GalleryCard">
+                    <div class="ConteudoCard">
+                        <img src="../img/radio.jpg">
+                        <h2 class="CardTitle">Rádio</h2>
+                    </div>
+                    <a href="radio.html"><button class="RequestProduct">Mais Detalhes</button></a>
+                </div>
+                <div class="GalleryCard">
+                    <div class="ConteudoCard">
+                        <img src="../img/televisão.jpg">
+                        <h2 class="CardTitle">Televisão</h2>
+                    </div>
+                    <a href="televisão.html"><button class="RequestProduct">Mais Detalhes</button></a>
+                </div>
+                <div class="GalleryCard">
+                    <div class="ContentCard">
+                        <img src="../img/ventilador.jpg">
+                        <h2 class="CardTitle">Ventilador</h2>
+                    </div>
+                    <a href="ventilador.html"><button class="RequestProduct">Mais Detalhes</button></a>
+                </div>
             </div>
-            <div class="telaInicial">
-                <div id="conteudo">
-                    <div class="conteudoTexto">
-                        <h2>Ultimos Anuncios</h2>
-                        <h2 class="verMais">Ver mais</h2>
-                    </div>
-                    <div class="conteudoDoacao">
-                        <div class="conteudoDoacao1">
-                            <img src="../img/Celulares.png" alt="">
-                            <h2>2 Celulares samsung</h2>
-                            <h1>Foz do Iguaçu</h1>
-                        </div>
-                        <div class="conteudoDoacao1">
-                            <img src="../img/Roupas.png" alt="">
-                            <h2>8 Camisas</h2>
-                            <h1>São Miguel</h1>
-                        </div>
-                        <div class="conteudoDoacao1">
-                            <img src="../img/Sapatos.png" alt="">
-                            <h2>Par de Sapatos</h2>
-                            <h1>Cascavel</h1>
-                        </div>
-                        <div class="conteudoDoacao1">
-                            <img src="../img/Microondas.png" alt="">
-                            <h2>Microondas Eletrolux</h2>
-                            <h1>Foz do Iguaçu</h1>
-                        </div>  
-                    </div>
-                </div>
-                <div id="conteudo">
-                    <div class="conteudoTexto">
-                        <h2>Anuncios Sobre Vestimentas</h2>
-                        <h2 class="verMais">Ver mais</h2>
-                    </div>
-                    <div class="conteudoDoacao">
-                        <div class="conteudoDoacao1">
-                            <img src="../img/moletom cinza cascavel.png" alt="">
-                            <h2>Moletom cinza</h2>
-                            <h1>Cascavel</h1>
-                        </div>
-                        <div class="conteudoDoacao1">
-                            <img src="../img/Roupas.png" alt="">
-                            <h2>8 Camisas</h2>
-                            <h1>São Miguel</h1>
-                        </div>
-                        <div class="conteudoDoacao1">
-                            <img src="../img/Sapatos.png" alt="">
-                            <h2>Par de Sapatos</h2>
-                            <h1>Cascavel</h1>
-                        </div>
-                        <div class="conteudoDoacao1">
-                            <img src="../img/Sapatos salto alto Cascavel.png" alt="">
-                            <h2>Sapato salto alto</h2>
-                            <h1>Cascavel</h1>
-                        </div>  
-                    </div>
-                </div>
+            <div class="buttonMore">
+                <button class="more">Carregar Mais</button>
             </div>
-        </section>
+        </div>
     </body>
 </html>

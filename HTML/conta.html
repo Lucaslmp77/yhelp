@@ -9,82 +9,88 @@
     </head>
     <body>
         <aside>
-        <header>
-            <div class="DivFantasma"></div>
-            <div class="Divdireito">
-                <div class="Divbusca">
-                    <button class="botaobusca"><img class="imgbusca" src="../img/busca.png"></button>
-                    <input class="busca" placeholder="Buscar...">
+            <header>
+                <a class="Logo" href="paginaInicial.html"><img src="../img/logo.png"></a>
+
+                <div class="minhaConta">
+                    <a class="minhaconta"><img class="imgheader" src="../img/anuncios.png"><p class="pheader">Meus anúncios</p></a>
                 </div>
                 <div class="minhaConta">
-                    <a class="minhaconta"><img class="imgheader" src="../img/anuncios.png"><p>Meus anúncios</p></a>
+                    <a class="minhaconta"><img class="imgheader" src="../img/sino.png"><p class="pheader">Notificações</p></a>
                 </div>
-                <div class="minhaConta">
-                    <a class="minhaconta"><img class="imgheader" src="../img/sino.png"><p>Notificações</p></a>
-                </div>
-                <div class="minhaConta">
-                    <a class="minhaconta"><img class="imgheader" src="../img/avatar.png"><p>Minha Conta</p></a>
-                </div>
+                <<div class="minhaConta">
+                <!--<a href="conta.html" class="minhaconta"><img class="imgheader" src="../img/avatar.png"><p class="pheader">Minha Conta</p></a>-->
+                <ul class="menu">
+                    <li><img class="imgheader" src="../img/avatar.png">
+                        <a href="#">Minha conta</a>
+                        <ul>
+                            <li><a href="anunciar.html">Anunciar</a></li>
+                            <li><a href="doacoesSolicitadas.html">Status de doação</a></li>
+                            <li><a href="#">Meus anúncios</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
             </div>
-        </header>
+            </header>
         </aside>
-        <div class="organizating">
-            <aside>
+        <aside>
             <!-- Início da Sidebar-->
             <div class="sidebar">
-                <a class="Logoside"><img src="../img/logo.png"></a>
-                    <ul class="rectangle">
+                <ul class="rectangle">
 
-                        <li>
+                    <li>
                         <a class="ancHome">
                             <img src="../img/profile.png">
                             <span class="linksName">Perfil</span>
                         </a>
-                        </li>
-                    </ul>
-                    <ul class="rectangle">
-                        <li>
+                    </li>
+                </ul>
+                <ul class="rectangle">
+                    <li>
                         <a href="doacoesSolicitadas.html" class="ancRelevancia">
                             <img src="../img/donations-requested.png">
                             <span class="linksName">Doações Solicitadas</span>
                         </a>
-                        </li>
-                    </ul>
-                    <ul class="rectangle">
-                        <li>
+                    </li>
+                </ul>
+                <ul class="rectangle">
+                    <li>
                         <a href="historicoDoacoes.html" class="ancAlfabetica">
                             <img src="../img/donations-acquired.png">
                             <span class="linksName">Doações Adquiridas</span>
                         </a>
-                        </li>
-                    </ul>
-                    <ul class="rectangle">
-                        <li>
+                    </li>
+                </ul>
+                <ul class="rectangle">
+                    <li>
                         <a href="controleDoacao.html" class="ancMmorpg">
                             <img src="../img/donation-control.png">
                             <span class="linksName">Controle de doações</span>
                         </a>
-                        </li>
-                    </ul>
-                    <ul class="rectangle">
-                        <li>
+                    </li>
+                </ul>
+                <ul class="rectangle">
+                    <li>
                         <a href="recuperarSenha.html" class="ancMoba">
                             <img src="../img/change-password.png">
                             <span class="linksName">Alterar senha</span>
                         </a>
-                        </li>
-                    </ul>
-                    <ul class="rectangle">
-                        <li>
+                    </li>
+                </ul>
+                <ul class="rectangle">
+                    <li>
                         <a class="ancCard" onclick="quit()">
                             <img src="../img/exit.png">
                             <span class="linksName">Sair</span>
                         </a>
-                        </li>
-                    </ul>
+                    </li>
+                </ul>
                 <!-- </div> -->
             </div>
-            </aside>
+        </aside>
+        <div class="organizating">
+
             <!-- Fim da sidebar -->
 
             <!-- Início da minha conta -->

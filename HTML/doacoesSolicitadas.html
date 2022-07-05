@@ -7,32 +7,45 @@
         <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon" />
     </head>
     <body>
-        <header>
-            <a class="Logo"><img src="../img/logo.png"></a>
-            <div class="Divbusca">
-                <button class="botaobusca"><img class="imgbusca" src="../img/busca.png"></button>
-                <input class="busca" placeholder="Buscar...">
-            </div>
-            <div class="minhaConta">
-                <a class="minhaconta"><img class="imgheader" src="../img/anuncios.png"><p class="pheader">Meus anúncios</p></a>
-            </div>
-            <div class="minhaConta">
-                <a class="minhaconta"><img class="imgheader" src="../img/sino.png"><p class="pheader">Notificações</p></a>
-            </div>
-            <div class="minhaConta">
-                <a class="minhaconta"><img class="imgheader" src="../img/avatar.png"><p class="pheader">Minha Conta</p></a>
-            </div>
-        </header>
+    <header>
+        <a class="Logo" href="paginaInicial.html"><img src="../img/logo.png"></a>
+        <div class="Divbusca">
+            <button class="botaobusca" type="submit"><img class="imgbusca" src="../img/busca.png"></button>
+            <input class="busca" placeholder="Buscar...">
+        </div>
+        <div class="minhaConta">
+            <a class="minhaconta"><img class="imgheader" src="../img/anuncios.png"><p class="pheader">Meus anúncios</p></a>
+        </div>
+        <div class="minhaConta">
+            <a class="minhaconta"><img class="imgheader" src="../img/sino.png"><p class="pheader">Notificações</p></a>
+        </div>
+        <<div class="minhaConta">
+        <!--<a href="conta.html" class="minhaconta"><img class="imgheader" src="../img/avatar.png"><p class="pheader">Minha Conta</p></a>-->
+        <ul class="menu">
+            <li><img class="imgheader" src="../img/avatar.png">
+                <a href="#">Minha conta</a>
+                <ul>
+                    <li><a href="anunciar.html">Anunciar</a></li>
+                    <li><a href="#">Status de doação</a></li>
+                    <li><a href="#">Meus anúncios</a></li>
+                </ul>
+            </li>
+
+        </ul>
+    </div>
+    </header>
         <h1 class="titulo">STATUS DE DOAÇÃO SOLICITADA</h1>
         <a class="status"><div class="container_status">
             <div class="headerproduto">
                 <div class="divproduto">
                     <p class="Codproduto">Produto:</p>
-                    <p class="codproduto">#0000</p>
+                    <p class="codproduto">Cadeira de Rodas</p>
                 </div>
             </div>
             <div class="produto">
-                <img src="../img/img-quebrada.png">
+                <div class="imagemproduto">
+                    <img src="../img/cadeiraRodas.jpg">
+                </div>
                 <div>
                     <p class="dataEhora">Data e Hora:</p>
                     <p>27/06/2022</p>
@@ -47,5 +60,31 @@
                 </div>
             </div>
             </div></a>
+    <a class="status"><div class="container_status">
+        <div class="headerproduto">
+            <div class="divproduto">
+                <p class="Codproduto">Produto:</p>
+                <p class="codproduto">Tenis</p>
+            </div>
+        </div>
+        <div class="produto">
+            <div class="imagemproduto">
+                <img src="../img/calçados.jpg">
+            </div>
+            <div>
+                <p class="dataEhora">Data e Hora:</p>
+                <p>27/06/2022</p>
+            </div>
+            <div>
+                <p class="dataEhora">Donatário:</p>
+                <p>vilminha</p>
+            </div>
+            <div>
+                <p class="dataEhora">Status</p>
+                <p>Doação aceita pelo destinatário!<br/>Clique abaixo para entrar em contato.</p>
+                <button class="accept">Contato</button>
+            </div>
+        </div>
+    </div></a>
     </body>
 </html>

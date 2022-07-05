@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;900&display=swap');
 
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -13,9 +13,14 @@
     --blue-color: #201E45;
     --purple-color: #404267;
     --orange-color: #F07B7B;
-    --grey-color: #C4C4C4;
-    --letras-color: #BEBEFF;
+    --grey-color: #E4E4EF;
+
     font-size: 62.5%; /* 1rem = 10px */
+}
+
+#paginaInicial{
+    width: 100vw;
+    height: 100vh;
 }
 
 header{
@@ -33,7 +38,7 @@ header{
     cursor: pointer;
 }
 .Logo img{
-    width: 100%;
+    width: 80%;
 }
 .imgheader{
     transform: scale(0.50);
@@ -67,12 +72,57 @@ header{
 .imgbusca:active{
     transform: scale(0.80);
 }
+.menu{
+    list-style:none;
+    border: none;
+    float:left;
+}
+.menu li{
+    position:relative;
+    float:left;
+    border: none;
+}
+.menu li a{color: #BEBEFF; text-decoration:none; padding:5px 10px; display:block;}
+
+.menu li a:hover{
+
+    background:#333;
+    color:#fff;
+    -moz-box-shadow:0 3px 10px 0 #CCC;
+    -webkit-box-shadow:0 3px 10px 0 #ccc;
+    text-shadow:0px 0px 5px #fff;
+}
+.menu li ul li a{
+    font-size: 1.5rem;
+    color: black;
+}
+.menu li  ul{
+    position:absolute;
+    top:40px;
+    left:0;
+    background-color:#fff;
+    display:none;
+}
+.menu li{
+    display: flex;
+    align-items: center;
+}
+.menu li:hover ul, .menu li.over ul{display:block;}
+.menu li ul li{
+    border: none;
+    display:block;
+    width:100%;
+}
 @media(max-width: 950px){
     .Logo img{
         width: 100%;
     }
     .minhaConta img{
         width: 50%;
+    }
+
+    .menu{
+        font-size: 1rem;
     }
     .minhaConta p{
         font-size: 1.5rem;
@@ -93,7 +143,7 @@ header{
     }
 }
 .minhaConta{
-    /*flex-direction: row;*/
+    flex-direction: row;
     color: #BEBEFF;
     font-size: 2.5rem;
     align-items: center;
@@ -106,9 +156,6 @@ header{
     display: flex;
     align-items: center;
 }
-.minhaconta p{
-
-}
 .titulo{
     text-align: center;
     padding: 1%;
@@ -118,7 +165,7 @@ header{
     position: relative;
     width: 70%;
     height: 200px;
-    background: #C4C4C4;
+    background-color: #E4E4EF;
     border-radius: 2px;
     top: 50%;
     left: 50%;
@@ -168,7 +215,15 @@ header{
     display: flex;
     flex-direction: row;
     align-items: center;
+    text-align: center;
     justify-content: space-between;
+
+    margin-bottom: 4%;
+}
+.produto img{
+    width: 109px;
+    height: 93px;
+    margin-left: 5%;
 }
 .dataEhora{
     color: dimgrey;
