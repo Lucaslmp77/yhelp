@@ -18,8 +18,8 @@
     font-size: 62.5%; /* 1rem = 10px */
 }
 
-.paginaInicialAnuncios{
-    width: 100%;
+#paginaInicial{
+    width: 100vw;
     height: 100vh;
 }
 
@@ -38,7 +38,7 @@ header{
     cursor: pointer;
 }
 .Logo img{
-    width: 100%;
+    width: 80%;
 }
 .imgheader{
     transform: scale(0.50);
@@ -72,12 +72,88 @@ header{
 .imgbusca:active{
     transform: scale(0.80);
 }
+.anunciosPrimeiroConteudo{
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+    flex-wrap: wrap-reverse;
+    padding-top: 15px;
+}
+.anunciosOption select{
+    width: 324px;
+    height: 60px;
+}
+
+.anunciosInput input{
+    width: 280px;
+    height: 60px;
+}
+
+.anunciosOption select,
+.anunciosInput input{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 29px;
+    padding-left: 10px;
+    color: var(--purple-color);
+    border: 1px black solid;
+    border-radius: 5px;
+    margin-right: 66px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+.menu{
+    list-style:none;
+    border: none;
+    float:left;
+}
+.menu li{
+    position:relative;
+    float:left;
+    border: none;
+}
+.menu li a{color: #BEBEFF; text-decoration:none; padding:5px 10px; display:block;}
+
+.menu li a:hover{
+    background:#333;
+    color:#fff;
+    -moz-box-shadow:0 3px 10px 0 #CCC;
+    -webkit-box-shadow:0 3px 10px 0 #ccc;
+    text-shadow:0px 0px 5px #fff;
+}
+.menu li ul li a{
+    font-size: 1.5rem;
+    color: black;
+}
+.menu li ul{
+    position:absolute;
+    top:40px;
+    left:0;
+    background-color:#fff;
+    display:none;
+    z-index: 100;
+}
+.menu li{
+    display: flex;
+    align-items: center;
+}
+.menu li:hover ul, .menu li.over ul{display:block;}
+.menu li ul li{
+    border: none;
+    display:block;
+    width:100%;
+}
 @media(max-width: 950px){
     .Logo img{
         width: 100%;
     }
     .minhaConta img{
         width: 50%;
+    }
+
+    .menu{
+        font-size: 1rem;
     }
     .minhaConta p{
         font-size: 1.5rem;
@@ -112,130 +188,74 @@ header{
     align-items: center;
 }
 
-.anunciosPrimeiroConteudo{
-    display: flex;
-    align-items: center;
-    justify-content:flex-end;
-    flex-wrap: wrap-reverse;
-    padding: 60px 0px;
-}
-
-.anunciosOption select{
-    width: 324px;
-    height: 60px;
-
-}
-
-.anunciosInput input{
-    width: 280px;
-    height: 60px;
-}
-
-.anunciosOption select,
-.anunciosInput input{
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 29px;
-    padding-left: 10px;
-    color: var(--purple-color);
-    border: 1px black solid;
-    border-radius: 5px;
-    margin-right: 66px;
-    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
-    cursor: pointer;
-}
-
-.anunciosButton button{
-    font-style: normal;
-    font-weight: 800;
-    font-size: 22px;
-    line-height: 36px;
-    color: var(--purple-color);
-    background-color: var(--grey-color);
-    width: 176px;
-    height: 59px;
-    margin-right: 66px;
-    align-items: center;
-    justify-content: center;
-    border-radius: 25px;
-    box-shadow: 0px 0px 20px 2px var(--purple-color);
-    cursor: pointer;
-}
-
-.anunciosConteudo{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 40px;
-    line-height: 73px;
-    margin-bottom: 30px;
-}
-
-.anunciosAnunciosCompleto{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.anunciosAnuncios{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
+.HomeContent{
     text-align: center;
+    position: relative;
+    width: 90%;
+    background-color: #E4E4EF;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, +2.5%);
+}
+.Gallery{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.GalleryCard{
+    background-color: white;
+    margin: 0.7%;
+    text-align: center;
+    width: 282px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+.GalleryCard:hover{
+    transform: scale(1.05);
+}
+.CardTitle{
+    color: #404267;
+    font-size: 2rem;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.GalleryCard img{
+    width: 100%;
+    height: 183px;
+}
+.article{
+    color: black;
+    font-size: 1.5rem;
+    margin: 0.7%;
+}
+.RequestProduct{
+    background-color: #F07B7B;
+    width: 100%;
+    height: 3rem;
+    color: #FFFFFF;
     cursor: pointer;
-    width: 320px;
-    height: 280px;
-    box-shadow: 6px 6px 2px rgba(0, 0, 0, 0.1);
+    border: none;
 }
-
-.anunciosAnuncios img{
-    width: 60%;
-    height: 60%;
+.RequestProduct:hover{
+    background-color: #404267;
+}
+.more{
+    background-color: #F07B7B;
+    width: 20%;
+    height: 5rem;
+    color: #FFFFFF;
+    cursor: pointer;
+    border: none;
     border-radius: 10px;
+    margin: 1%;
 }
-
-.anunciosAnuncios a img{
-    width: 85%;
-    height: 95%;
-    border-radius: 10px;
+.more:hover{
+    background-color: #404267;
 }
-
-.anunciosAnuncios h2{
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 29px;
-    padding-top: 10px;
-}
-
-.anunciosAnuncios h1{
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 29px;
-    padding-top: 5px;
-}
-
-@media (max-width: 500px){
-    .anunciosPrimeiroConteudo{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column-reverse;
-    }
-    
-    .anunciosPrimeiroConteudo button,
-    .anunciosPrimeiroConteudo select,
-    .anunciosPrimeiroConteudo input{
-        margin: 15px 20px;
-    }
-
-    .anunciosAnuncios {
-        box-shadow: 0px 6px 1px rgba(0, 0, 0, 0.1);
-    }
+.RequestProduct:active{
+    transform: scale(0.95);
 }

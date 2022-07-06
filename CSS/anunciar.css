@@ -209,21 +209,27 @@ form label{
 form input{
     height: 40px;
     font-size: 21px;
-    border: 1px black solid;
     padding-left: 5px;
+    border: #E4E4EF;
+    background: #E4E4EF;
+    border-radius: 10px;
 }
 
 form textarea{
     height: 100px;
     font-size: 21px;
-    border: 1px black solid;
     padding-left: 5px;
+    border: #E4E4EF;
+    background: #E4E4EF;
+    border-radius: 10px;
 }
 
 form select{
     height: 40px;
-    border: 1px black solid;
     font-size: 21px;
+    border: #E4E4EF;
+    background: #E4E4EF;
+    border-radius: 10px;
 }
 
 select option{
@@ -284,20 +290,13 @@ form small{
     background-color: white;
     border-radius: 12px;
     border: 2px black solid;
+    cursor: pointer;
 }
 
 .formularioFotoAnunciar img{
     width: 60%;
 }
 
-
-
-.botaoUpload{
-    margin-top: 10px;
-    margin-bottom: 100px;
-}
-
-.botaoUpload button,
 .botaoAnunciar button{
     width: 145px;
     height: 50px;
@@ -310,19 +309,14 @@ form small{
     line-height: 29px;
     cursor: pointer;
     border: none;
-}
-
-.botaoUpload button:hover{
-    color: white;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
 }
 
 .botaoAnunciar button:hover{
     color: white;
 }
 .botaoAnunciar button:active{
-    transform: scale(0.95);
-}
-.botaoUpload button:active{
     transform: scale(0.95);
 }
 

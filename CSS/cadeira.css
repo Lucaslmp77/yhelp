@@ -96,12 +96,13 @@ header{
     font-size: 1.5rem;
     color: black;
 }
-.menu li  ul{
+.menu li ul{
     position:absolute;
     top:40px;
     left:0;
     background-color:#fff;
     display:none;
+    z-index: 100;
 }
 .menu li{
     display: flex;
@@ -182,6 +183,7 @@ header{
     justify-content: space-between;
     align-items: center;
     height: 190px;
+    padding: 1rem;
 }
 .InfoProduct h2{
     font-size: 2rem;

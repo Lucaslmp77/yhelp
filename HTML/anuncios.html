@@ -1,98 +1,122 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>anuncios</title>
+        <title>paginaInicial</title>
         <link rel="stylesheet" href="../CSS/anuncios.css">
+        <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon" />
     </head>
     <body>
-        <section id="anuncios">
-            <header>
-                <a class="Logo"><img src="../img/logo.png"></a>
-                <div class="Divbusca">
-                    <button class="botaobusca" type="submit"><img class="imgbusca" src="../img/busca.png"></button>
-                    <input class="busca" placeholder="Buscar...">
+        <header>
+            <a class="Logo" href="paginaInicial.html"><img src="../img/logo.png"></a>
+            <div class="Divbusca">
+                <button class="botaobusca" type="submit"><img class="imgbusca" src="../img/busca.png"></button>
+                <input class="busca" placeholder="Buscar...">
+            </div>
+            <div class="minhaConta">
+                <a class="minhaconta" href="anuncios.html"><img class="imgheader" src="../img/anuncios.png"><p class="pheader">Anúncios</p></a>
+            </div>
+            <div class="minhaConta">
+                <a class="minhaconta"><img class="imgheader" src="../img/sino.png"><p class="pheader">Notificações</p></a>
+            </div>
+            <div class="minhaConta">
+                <!--<a href="conta.html" class="minhaconta"><img class="imgheader" src="../img/avatar.png"><p class="pheader">Minha Conta</p></a>-->
+            <ul class="menu">
+                <li><img class="imgheader" src="../img/avatar.png">
+                    <a href="#">Usuário</a>
+                    <ul>
+                        <li><a href="conta.html">Minha conta</a></li>
+                        <li><a href="anunciar.html">Anunciar</a></li>
+                        <li><a href="doacoesSolicitadas.html">Status de doação</a></li>
+                        <li><a href="anuncios.html">Meus anúncios</a></li>
+                        <li><a href="login.html" onclick="quit()" >Sair</a></li>
+                    </ul>
+                </li>
+
+            </ul>
+            </div>
+        </header>
+        <div class="paginaInicialAnuncios">
+            <div class="anunciosPrimeiroConteudo">
+                <div class="anunciosOption">
+                    <select>
+                        <option>Categoria</option>
+                        <option>Roupas</option>
+                        <option>Eletrônicos</option>
+                        <option>Sapatos</option>
+                        <option>Brinquedos</option>
+                        <option>Outros</option>
+                    </select>
                 </div>
-                <div class="minhaConta">
-                    <a class="minhaconta"><img class="imgheader" src="../img/anuncios.png"><p class="pheader">Meus anúncios</p></a>
+                <div class="anunciosInput">
+                    <input type="text" placeholder="Digite a Cidade Aqui">
                 </div>
-                <div class="minhaConta">
-                    <a class="minhaconta"><img class="imgheader" src="../img/sino.png"><p class="pheader">Notificações</p></a>
+        </div>
+        <div class="HomeContent">
+            <div class="Gallery">
+                <div class="GalleryCard">
+                    <div class="ConteudoCard">
+                        <img src="../img/cadeiraRodas.jpg">
+                        <h2 class="CardTitle">Cadeira de rodas</h2>
+                    </div>
+                    <a href="cadeira.html"><button class="RequestProduct">Mais Detalhes</button></a>
                 </div>
-                <div class="minhaConta">
-                    <a class="minhaconta"><img class="imgheader" src="../img/avatar.png"><p class="pheader">Minha Conta</p></a>
+                <div class="GalleryCard">
+                    <div class="ConteudoCard">
+                        <img src="../img/calçados.jpg">
+                        <h2 class="CardTitle">Tenis</h2>
+                    </div>
+                    <a href="calçado.html"><button class="RequestProduct">Mais Detalhes</button></a>
                 </div>
-            </header>
-            <div class="paginaInicialAnuncios">
-                <div class="anunciosPrimeiroConteudo">
-                    <div class="anunciosOption">
-                        <select>
-                            <option>Categoria</option>
-                            <option>Roupas</option>
-                            <option>Eletrônicos</option>
-                            <option>Sapatos</option>
-                            <option>Brinquedos</option>
-                            <option>Outros</option>
-                        </select>
+                <div class="GalleryCard">
+                    <div class="ConteudoCard">
+                        <img src="../img/camera.jpg">
+                        <h2 class="CardTitle">Câmera</h2>
                     </div>
-                    <div class="anunciosInput">
-                        <input 
-                            type="text" placeholder="Digite a Cidade Aqui">
-                    </div>
-                    <div class="anunciosButton">
-                        <button>Anunciar</button>
-                    </div>
+                    <a href="camera.html"><button class="RequestProduct">Mais Detalhes</button></a>
                 </div>
-                <div class="anunciosConteudo">
-                    <h1>Anúncios</h1>
+                <div class="GalleryCard">
+                    <div class="ConteudoCard">
+                        <img src="../img/iphone-6.jpg">
+                        <h2 class="CardTitle">Celular</h2>
+                    </div>
+                    <a href="celular.html"><button class="RequestProduct">Mais Detalhes</button></a>
                 </div>
-                <div class="anunciosAnunciosCompleto">
-                    <div class="anunciosAnuncios">
-                        <img src="../img/Celulares.png" alt="">
-                        <h2>2 Celulares samsung</h2>
-                        <h1>Foz do Iguaçu</h1>
+                <div class="GalleryCard">
+                    <div class="ConteudoCard">
+                        <img src="../img/Liquidificador.jpg">
+                        <h2 class="CardTitle">Liquidificador</h2>
                     </div>
-                    <div class="anunciosAnuncios">
-                        <img src="../img/Roupas.png" alt="">
-                        <h2>8 Camisas em ótimas condições</h2>
-                        <h1>Foz do Iguaçu</h1>
+                    <a href="liquidificador.html"><button class="RequestProduct">Mais Detalhes</button></a>
+                </div>
+                <div class="GalleryCard">
+                    <div class="ConteudoCard">
+                        <img src="../img/radio.jpg">
+                        <h2 class="CardTitle">Rádio</h2>
                     </div>
-                    <div class="anunciosAnuncios">
-                        <img src="../img/Sapatos.png" alt="">
-                        <h2>Par de sapatos</h2>
-                        <h1>Foz do Iguaçu</h1>
+                    <a href="radio.html"><button class="RequestProduct">Mais Detalhes</button></a>
+                </div>
+                <div class="GalleryCard">
+                    <div class="ConteudoCard">
+                        <img src="../img/televisão.jpg">
+                        <h2 class="CardTitle">Televisão</h2>
                     </div>
-                    <div class="anunciosAnuncios">
-                        <a href="anuncio.html">
-                            <img src="../img/Microondas.png" alt="">
-                        </a>
-                        <h2>Microondas eletrolux</h2>
-                        <h1>Foz do Iguaçu</h1>
+                    <a href="televisão.html"><button class="RequestProduct">Mais Detalhes</button></a>
+                </div>
+                <div class="GalleryCard">
+                    <div class="ContentCard">
+                        <img src="../img/ventilador.jpg">
+                        <h2 class="CardTitle">Ventilador</h2>
                     </div>
-                    <div class="anunciosAnuncios">
-                        <img src="../img/Sapatos salto alto Cascavel.png" alt="">
-                        <h2>Sapatos salto alto</h2>
-                        <h1>Cascavel</h1>
-                    </div>
-                    <div class="anunciosAnuncios">
-                        <img src="../img/Diversos brinquedos Itaipulandia.png" alt="">
-                        <h2>Diversos brinquedos</h2>
-                        <h1>Itaipulandia</h1>
-                    </div>
-                    <div class="anunciosAnuncios">
-                        <img src="../img/moletom cinza cascavel.png" alt="">
-                        <h2>Moletom Cinza</h2>
-                        <h1>Cascavel</h1>
-                    </div>
-                    <div class="anunciosAnuncios">
-                        <img src="../img/Colchao de casal santa terezinha.png" alt="">
-                        <h2>Colchão de casal</h2>
-                        <h1>Santa terezinha</h1>
-                    </div>
+                    <a href="ventilador.html"><button class="RequestProduct">Mais Detalhes</button></a>
                 </div>
             </div>
-        </section>
+            <div class="buttonMore">
+                <button class="more">Carregar Mais</button>
+            </div>
+        </div>
+        <script src="../JS/sair.js"></script>
     </body>
 </html>

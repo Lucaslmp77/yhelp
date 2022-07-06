@@ -9,33 +9,35 @@
         <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon" />
     </head>
     <body>
-            <header>
-                <a class="Logo" href="paginaInicial.html"><img src="../img/logo.png"></a>
-                <div class="Divbusca">
-                    <button class="botaobusca" type="submit"><img class="imgbusca" src="../img/busca.png"></button>
-                    <input class="busca" placeholder="Buscar...">
-                </div>
-                <div class="minhaConta">
-                    <a class="minhaconta"><img class="imgheader" src="../img/anuncios.png"><p class="pheader">Meus anúncios</p></a>
-                </div>
-                <div class="minhaConta">
-                    <a class="minhaconta"><img class="imgheader" src="../img/sino.png"><p class="pheader">Notificações</p></a>
-                </div>
-                <<div class="minhaConta">
-                    <!--<a href="conta.html" class="minhaconta"><img class="imgheader" src="../img/avatar.png"><p class="pheader">Minha Conta</p></a>-->
-                <ul class="menu">
-                    <li><img class="imgheader" src="../img/avatar.png">
-                        <a href="#">Minha conta</a>
-                        <ul>
-                            <li><a href="anunciar.html">Anunciar</a></li>
-                            <li><a href="doacoesSolicitadas.html">Status de doação</a></li>
-                            <li><a href="#">Meus anúncios</a></li>
-                        </ul>
-                    </li>
+        <header>
+            <a class="Logo" href="paginaInicial.html"><img src="../img/logo.png"></a>
+            <div class="Divbusca">
+                <button class="botaobusca" type="submit"><img class="imgbusca" src="../img/busca.png"></button>
+                <input class="busca" placeholder="Buscar...">
+            </div>
+            <div class="minhaConta">
+                <a class="minhaconta" href="anuncios.html"><img class="imgheader" src="../img/anuncios.png"><p class="pheader">Anúncios</p></a>
+            </div>
+            <div class="minhaConta">
+                <a class="minhaconta"><img class="imgheader" src="../img/sino.png"><p class="pheader">Notificações</p></a>
+            </div>
+            <div class="minhaConta">
+                <!--<a href="conta.html" class="minhaconta"><img class="imgheader" src="../img/avatar.png"><p class="pheader">Minha Conta</p></a>-->
+            <ul class="menu">
+                <li><img class="imgheader" src="../img/avatar.png">
+                    <a href="#">Usuário</a>
+                    <ul>
+                        <li><a href="conta.html">Minha conta</a></li>
+                        <li><a href="anunciar.html">Anunciar</a></li>
+                        <li><a href="doacoesSolicitadas.html">Status de doação</a></li>
+                        <li><a href="anuncios.html">Meus anúncios</a></li>
+                        <li><a href="login.html" onclick="quit()" >Sair</a></li>
+                    </ul>
+                </li>
 
-                </ul>
-                </div>
-            </header>
+            </ul>
+            </div>
+        </header>
         <div class="HomeContent">
             <div class="Gallery">
                 <div class="GalleryCard">
@@ -99,5 +101,6 @@
                 <button class="more">Carregar Mais</button>
             </div>
         </div>
+        <script src="../JS/sair.js"></script>
     </body>
 </html>

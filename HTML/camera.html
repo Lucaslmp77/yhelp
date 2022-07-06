@@ -1,59 +1,66 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Câmera</title>
-  <link rel="stylesheet" href="../CSS/cadeira.css">
-  <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon" />
-</head>
-<body>
-<header>
-  <a class="Logo" href="paginaInicial.html"><img src="../img/logo.png"></a>
-  <div class="Divbusca">
-    <button class="botaobusca" type="submit"><img class="imgbusca" src="../img/busca.png"></button>
-    <input class="busca" placeholder="Buscar...">
-  </div>
-  <div class="minhaConta">
-    <a class="minhaconta"><img class="imgheader" src="../img/anuncios.png"><p class="pheader">Meus anúncios</p></a>
-  </div>
-  <div class="minhaConta">
-    <a class="minhaconta"><img class="imgheader" src="../img/sino.png"><p class="pheader">Notificações</p></a>
-  </div>
-  <<div class="minhaConta">
-  <!--<a href="conta.html" class="minhaconta"><img class="imgheader" src="../img/avatar.png"><p class="pheader">Minha Conta</p></a>-->
-  <ul class="menu">
-    <li><img class="imgheader" src="../img/avatar.png">
-      <a href="#">Minha conta</a>
-      <ul>
-        <li><a href="#">Anunciar</a></li>
-        <li><a href="#">Status de doação</a></li>
-        <li><a href="#">Meus anúncios</a></li>
-      </ul>
-    </li>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Câmera</title>
+    <link rel="stylesheet" href="../CSS/cadeira.css">
+    <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon" />
+  </head>
+  <body>
+  <header>
+    <a class="Logo" href="paginaInicial.html"><img src="../img/logo.png"></a>
+    <div class="Divbusca">
+      <button class="botaobusca" type="submit"><img class="imgbusca" src="../img/busca.png"></button>
+      <input class="busca" placeholder="Buscar...">
+    </div>
+    <div class="minhaConta">
+      <a class="minhaconta" href="anuncios.html"><img class="imgheader" src="../img/anuncios.png"><p class="pheader">Anúncios</p></a>
+    </div>
+    <div class="minhaConta">
+      <a class="minhaconta"><img class="imgheader" src="../img/sino.png"><p class="pheader">Notificações</p></a>
+    </div>
+    <div class="minhaConta">
+    <!--<a href="conta.html" class="minhaconta"><img class="imgheader" src="../img/avatar.png"><p class="pheader">Minha Conta</p></a>-->
+    <ul class="menu">
+      <li><img class="imgheader" src="../img/avatar.png">
+        <a href="#">Usuário</a>
+        <ul>
+          <li><a href="conta.html">Minha conta</a></li>
+          <li><a href="anunciar.html">Anunciar</a></li>
+          <li><a href="doacoesSolicitadas.html">Status de doação</a></li>
+          <li><a href="anuncios.html">Meus anúncios</a></li>
+          <li><a href="login.html" onclick="quit()" >Sair</a></li>
+        </ul>
+      </li>
 
-  </ul>
-</div>
-</header>
-<div class="HomeContent">
-  <div class="content">
-    <div class="image">
-      <img src="../img/camera.jpg">
-    </div>
-    <div class="InfoProduct">
-      <div class="Info">
-        <h2>Câmera</h2>
-        <div class="local">
-          <p>Locas:&nbsp;</p>
-          <p>Foz do Iguaçu</p>
-        </div>
-        <p>Uma câmera de marca em perfeito estado, sem defeito.</p>
+    </ul>
+  </div>
+  </header>
+  <div class="HomeContent">
+    <div class="content">
+      <div class="image">
+        <img src="../img/camera.jpg">
       </div>
-      <button class="request">Solicitar Doação</button>
+      <div class="InfoProduct">
+        <div class="Info">
+          <h2>Câmera</h2>
+          <p>Descrição: Uma câmera de marca em perfeito estado, sem defeito.</p>
+          <div class="local">
+            <p>Cidade:&nbsp;</p>
+            <p>Foz do Iguaçu</p>
+          </div>
+          <div class="local">
+            <p>Bairro:&nbsp;</p>
+            <p>Vila A</p>
+          </div>
+        </div>
+        <button class="request">Solicitar Doação</button>
+      </div>
     </div>
   </div>
-</div>
-</div>
-</body>
+  </div>
+    <script src="../JS/sair.js"></script>
+  </body>
 </html>
