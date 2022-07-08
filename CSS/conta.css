@@ -51,7 +51,7 @@ header{
     width: 80%;
     height: 43px;
     background: none;
-    border: #E4E4EF;
+    border: none;
     font-size: 1.5rem;
 }
 .busca:focus, input:focus {
@@ -62,7 +62,7 @@ header{
     width: 60px;
     height: 45px;
     background: #E4E4EF;
-    border: #E4E4EF;
+    border: none;
     border-radius: 50px;
 }
 .imgbusca:active{
@@ -180,13 +180,13 @@ button {
 
     background: #E4E4EF;
     border-radius: 20px;
-    border: #E4E4EF;
+    border: none;
 }
 
 input {
     width: 478px;
     height: 50px;
-    border: #E4E4EF;
+    border: none;
     
     background: #E4E4EF;
     border-radius: 10px;
@@ -221,13 +221,14 @@ ul {
 .rectangle a {
     width: 271px;
     height: 68.16px;
-    margin-bottom: 60px;
+    margin-bottom: 36px;
     align-items: center;
     justify-items: center;
     display: flex;
 
     background: #404267;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .rectangle {
@@ -238,9 +239,12 @@ ul {
     flex-direction: column;
 }
 .Logoside{
-    margin-bottom: 25%;
+    margin-bottom: 20%;
 }
 
+.Logoside img{
+    transform: scale(0.75);
+}
 /* Início minha conta */
 
 .content {
